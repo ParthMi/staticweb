@@ -1,5 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router'
+import { NavLink } from 'react-router-dom'
 
 const MainLayout = ({ children }) => {
     return (
@@ -20,19 +21,22 @@ const MainLayout = ({ children }) => {
                     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul className="main-navbar-bg font-medium flex flex-col p-4 md:p-0 mt-4 border  border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
                             <li>
-                                <a href="#" className="navlink active block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Home</a>
+                                <NavLink to="/" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Home</NavLink>
                             </li>
                             <li>
-                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Home</a>
+                            <NavLink to="/products/category" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Products</NavLink>
                             </li>
                             <li>
-                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Home</a>
+                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">About US</a>
                             </li>
                             <li>
-                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Home</a>
+                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">FAQ'S</a>
                             </li>
                             <li>
-                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Home</a>
+                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Contact</a>
                             </li>
 
 

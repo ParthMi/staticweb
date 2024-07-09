@@ -16,7 +16,7 @@ const Home = () => {
       <div className="product-section">
         <ProductsSection />
       </div>
-      <div className='blog-section bg-gray-200'>
+      <div className='blog-section '>
         <BlogSection />
       </div>
     </div>
