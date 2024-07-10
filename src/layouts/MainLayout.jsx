@@ -27,16 +27,16 @@ const MainLayout = ({ children }) => {
                             <NavLink to="/products/category" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Products</NavLink>
                             </li>
                             <li>
-                                <span href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">About US</span>
+                                <NavLink to="/aboutus" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">About US</NavLink>
                             </li>
                             <li>
-                                <span href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">FAQ'S</span>
+                                <NavLink to="/faqs" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">FAQ'S</NavLink>
                             </li>
                             <li>
                                 <span href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Blog</span>
                             </li>
                             <li>
-                                <span href="#" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Contact</span>
+                                <NavLink to="/contactus" className="navlink block py-2 px-3 text-white rounded  md:p-0" aria-current="page">Contact</NavLink>
                             </li>
 
 

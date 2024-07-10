@@ -153,3 +153,9 @@ body{
     display: none !important;
   }
 }
+.faq-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../src/images/faq/faqbg.png);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
