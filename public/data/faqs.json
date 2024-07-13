@@ -1,19 +1,59 @@
 [
     {
-      "question": "How to create an account?",
-      "answer": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+      "question": "What are biodegradable dishes?",
+      "answer": "Biodegradable dishes are tableware items made from materials that can naturally break down and decompose into non-toxic components when exposed to environmental conditions such as moisture, heat, and microorganisms."
     },
     {
-      "question": "How can I make payment using Paypal?",
-      "answer": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+      "question": "What materials are biodegradable dishes typically made from?",
+      "answer": "Biodegradable dishes can be made from various materials, including: 1)Plant-based materials such as cornstarch, sugarcane bagasse, bamboo, and palm leaves.      2)Paper and cardboard treated with biodegradable coatings or additives. 3) Some types of bioplastics derived from renewable resources."
+    },{
+      "question": "Are biodegradable dishes environmentally friendly?",
+      "answer": "Yes, biodegradable dishes are generally considered more environmentally friendly than traditional plastic dishes because they break down naturally over time, reducing the amount of waste in landfills and oceans."
     },
     {
-      "question": "Can I cancel my plan?",
-      "answer": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+      "question": "How long do biodegradable dishes take to break down?",
+      "answer": "The time it takes for biodegradable dishes to decompose can vary depending on factors like material composition, environmental conditions, and disposal method. Some may break down in a matter of months under optimal composting conditions.,      "
     },
     {
-      "question": "How can I reach to support?",
-      "answer": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+      "question": "What are plant-based dishes?      ",
+      "answer": "Plant-based dishes are tableware items made from materials derived from plants or vegetables. These materials are often renewable and can include bamboo, sugarcane bagasse, cornstarch, palm leaves, and other plant fibers.      "
+    },
+    {
+      "question": "What are the benefits of using plant-based dishes?      ",
+      "answer": "1) Sustainability: Plant-based dishes are made from renewable resources, reducing dependency on finite fossil fuels.      2) Biodegradability: Many plant-based dishes are biodegradable, meaning they can break down naturally over time, reducing environmental impact.3) Versatility: They come in various shapes and sizes suitable for different occasions, from casual picnics to formal events."
+    },
+    {
+      "question": "Are plant-based dishes safe for hot foods?      ",
+      "answer": "Yes, many plant-based dishes are designed to withstand hot foods. They can handle temperatures typically encountered in serving meals.      "
+    },
+    {
+      "question": "Can plant-based dishes be recycled?      ",
+      "answer": "Plant-based dishes are often compostable rather than recyclable. They are designed to decompose into organic matter when processed in industrial composting facilities.      "
+    },
+    {
+      "question": "Are plant-based dishes microwave-safe?",
+      "answer": "It depends on the specific material and product. Some plant-based dishes are microwave-safe, while others may have temperature limitations. Always check the product instructions for guidance.      "
+    },
+    {
+      "question": "How long do plant-based dishes take to break down?      ",
+      "answer": "The decomposition time varies depending on the material and environmental conditions. Generally, plant-based dishes can break down within several months under proper composting conditions."
+    },
+    {
+      "question": "Where can I buy plant-based dishes?      ",
+      "answer": "Plant-based dishes are available at eco-friendly stores, online retailers specializing in sustainable products, and sometimes in larger supermarkets or party supply stores.      "
+    },
+    {
+      "question": "How should I dispose of plant-based dishes?",
+      "answer": "Plant-based dishes are best disposed of in compost bins or facilities equipped to handle organic waste. Ensure they are free from contaminants before composting.      "
+    },
+    {
+      "question": "Are there any health concerns with using plant-based dishes?      ",
+      "answer": "Plant-based dishes are generally considered safe for food use. However, individuals with specific allergies should check the materials used in the dishes.      "
+    },
+    {
+      "question": "What are the alternatives to plant-based dishes?",
+      "answer": "Alternatives include reusable dishes made from materials like glass, stainless steel, or durable plastics designed for multiple uses. Choosing products with minimal packaging also reduces environmental impact."
     }
+
   ]
   

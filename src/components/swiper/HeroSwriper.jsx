@@ -46,7 +46,7 @@ const HeroSwriper = () => {
                         </div>
                         <div className="text" data-swiper-parallax="-400%">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            we believe in combining sustainability with exceptional quality. 
                             </p>
                         </div></div>
                 </SwiperSlide>
@@ -62,7 +62,7 @@ const HeroSwriper = () => {
                         </div>
                         <div className="text" data-swiper-parallax="-400%">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            reduce plastic waste and create a healthier planet for future generations.
                             </p></div>
                     </div>
                 </SwiperSlide>
@@ -76,7 +76,7 @@ const HeroSwriper = () => {
                     </div >
                         <div className="text" data-swiper-parallax="-400%">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Customer satisfaction is at the heart of what we do.
                             </p>
                         </div></div>
                 </SwiperSlide>
@@ -90,7 +90,7 @@ const HeroSwriper = () => {
                     </div >
                         <div className="text" data-swiper-parallax="-400%">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            offers cutting-edge products designed to meet the highest standards.
                             </p>
                         </div></div>
                 </SwiperSlide>
@@ -104,7 +104,7 @@ const HeroSwriper = () => {
                     </div >
                         <div className="text" data-swiper-parallax="-400%">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            emphasizing sustainability, quality, innovation, safety, and customer satisfaction.
                             </p>
                         </div></div>
                 </SwiperSlide>

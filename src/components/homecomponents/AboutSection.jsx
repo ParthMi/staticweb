@@ -47,14 +47,10 @@ const AboutSection = () => {
               Make your customers happy by giving services.
             </h2>
             <p className="mb-5 text-base text-body-color dark:text-dark-6">
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page when looking at its layout.
-              The point of using Lorem Ipsum is that it has a more-or-less.
+            At Agastya International, we are dedicated to providing eco-friendly solutions through our plant-based disposable products, which are 100% biodegradable and compostable. Our commitment to sustainability helps reduce plastic waste and lowers the environmental footprint, contributing to a healthier planet
             </p>
             <p className="mb-8 text-base text-body-color dark:text-dark-6">
-              A domain name is one of the first steps to establishing your
-              brand. Secure a consistent brand image with a domain name that
-              matches your business.
+            Our products are designed for durability and functionality, ensuring you don't have to compromise on quality while making an eco-conscious choice. We are at the forefront of innovation, continuously developing new and improved plant-based materials and products, including plates, cups, cutlery, and packaging solutions that meet the highest standards of performance and sustainability. 
             </p>
             <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn more</button>
 

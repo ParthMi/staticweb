@@ -5,19 +5,17 @@ const Contact = () => {
     <>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
         <div className="container">
+                <h2 className="mb-10  -mt-12 flex items-center justify-center text-base font-semibold text-primary text-[34px]">
+                  Contact Us
+                </h2>
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div className="mb-12 max-w-[570px] lg:mb-0">
-                <span className="mb-4 block text-base font-semibold text-primary">
-                  Contact Us
-                </span>
-                <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+              <div className="mb-12 max-w-[570px] lg:mb-0 ml-16">
+                <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-dark-6 sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                At Agastya International, we value your feedback and are here to assist you with any questions or concerns you may have. Whether you need more information about our plant-based disposable products, want to place an order, or have any other inquiries, please feel free to get in touch with us. Our dedicated team is committed to providing exceptional customer service and ensuring your satisfaction.
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
@@ -35,11 +33,11 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-gray-700">
                       Our Location
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      Surat, Gujarat, India
                     </p>
                   </div>
                 </div>
@@ -75,11 +73,11 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                    <h6 className="mb-1 text-xl font-bold text-dark dark:text-gray-700">
                       Phone Number
-                    </h4>
+                    </h6>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      (+62)81 414 257 9980
+                      (+91) 997 884 1409
                     </p>
                   </div>
                 </div>
@@ -100,18 +98,18 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
+                    <h4 className="mb-1 text-xl font-bold text-dark dark:text-gray-700">
                       Email Address
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
+                    agastyainternational0@gmail.com
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 mr-16">
+              <div className="relative rounded-lg bg-white p-8 shadow-xl dark:bg-dark-2 sm:p-12">
                 <form>
                   <ContactInputBox
                     type="text"
@@ -137,7 +135,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full rounded border border-primary bg-primary p-3 text-white transition hover:bg-opacity-90"
+                      className="w-full rounded border border-primary bg-primary p-3 text-blue transition hover:bg-blue-500 "
                     >
                       Send Message
                     </button>
