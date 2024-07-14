@@ -1,11 +1,65 @@
 [
     {
-        "id":"1",
-        "name":"plate",
-        "category":"sugarcane",
-        "sub-cat":"plate",
-        "size":"7inch, 8inch, 9inch",
-        "dimention":"16mm",
-        "packet":"1000 pices/cartoon"
+        "id": "1",
+        "name": "plate",
+        "category": "sugarcane",
+        "sub-cat": "plate",
+        "size": "7inch, 8inch, 9inch",
+        "dimention": "16mm",
+        "packet": "1000 pices/cartoon"
+    },
+    {
+        "id": "2",
+        "name": "Round Plate",
+        "category": "sugarcane",
+        "sub-cat": "plate",
+        "size": "7inch, 8inch, 9inch",
+        "dimension": "16mm",
+        "packet": "1000 pieces/carton"
+    },
+    {
+        "id": "3",
+        "name": "Bowl",
+        "category": "sugarcane",
+        "sub-cat": "bowl",
+        "size": "12oz, 16oz",
+        "dimension": "20mm",
+        "packet": "500 pieces/carton"
+    },
+    {
+        "id": "4",
+        "name": "Tray",
+        "category": "sugarcane",
+        "sub-cat": "tray",
+        "size": "10inch x 6inch",
+        "dimension": "25mm",
+        "packet": "300 pieces/carton"
+    },
+    {
+        "id": "5",
+        "name": "Round Plate",
+        "category": "plant-based",
+        "sub-cat": "plate",
+        "size": "7inch, 8inch, 9inch",
+        "dimension": "16mm",
+        "packet": "1000 pieces/carton"
+    },
+    {
+        "id": "6",
+        "name": "Bowl",
+        "category": "plant-based",
+        "sub-cat": "bowl",
+        "size": "12oz, 16oz",
+        "dimension": "20mm",
+        "packet": "500 pieces/carton"
+    },
+    {
+        "id": "7",
+        "name": "Tray",
+        "category": "plant-based",
+        "sub-cat": "tray",
+        "size": "10inch x 6inch",
+        "dimension": "25mm",
+        "packet": "300 pieces/carton"
     }
 ]

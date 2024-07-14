@@ -5,9 +5,9 @@ const Contact = () => {
     <>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
         <div className="container">
-                <h2 className="mb-10  -mt-12 flex items-center justify-center font-semibold text-primary text-4xl">
+                {/* <h2 className="mb-10  -mt-12 flex items-center justify-center font-semibold text-primary text-4xl">
                   Contact Us
-                </h2>
+                </h2> */}
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-2/5 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0 ml-5 md:ml-10 lg:ml-16 ">

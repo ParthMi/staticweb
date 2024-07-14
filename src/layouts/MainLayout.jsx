@@ -1,5 +1,4 @@
-import React from "react";
-import { Outlet } from "react-router";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {
   FaFacebookF,
@@ -8,8 +7,15 @@ import {
   FaPinterest,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { SiWhatsapp } from "react-icons/si";
 
 const MainLayout = ({ children }) => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
   return (
     <>
       <nav className="fixed z-20 w-full main-navbar-bg border-gray-200 dark:bg-gray-900">
@@ -20,11 +26,11 @@ const MainLayout = ({ children }) => {
             </span>
           </span>
           <button
-            data-collapse-toggle="navbar-default"
+            onClick={toggleDrawer}
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-200 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
-            aria-expanded="false"
+            aria-expanded={isDrawerOpen}
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -36,19 +42,88 @@ const MainLayout = ({ children }) => {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="main-navbar-bg font-medium flex flex-col p-4 md:p-0 mt-4 border  border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+          {/* Mobile Drawer */}
+          <div className={`fixed inset-0 z-30 bg-gray-800 bg-opacity-75 transition-opacity ${isDrawerOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} onClick={toggleDrawer}></div>
+          <div className={`fixed inset-y-0 left-0 w-64 bg-gray-900 text-white transform transition-transform ${isDrawerOpen ? "translate-x-0" : "-translate-x-full"} md:hidden`}>
+            <div className="p-4">
+              <button
+                onClick={toggleDrawer}
+                type="button"
+                className="text-white float-right text-2xl"
+              >
+                &times;
+              </button>
+              <ul className="mt-4">
+                <li>
+                  <NavLink
+                    to="/"
+                    className="block py-2 px-3 rounded"
+                    onClick={toggleDrawer}
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/products/category"
+                    className="block py-2 px-3 rounded"
+                    onClick={toggleDrawer}
+                  >
+                    Products
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/aboutus"
+                    className="block py-2 px-3 rounded"
+                    onClick={toggleDrawer}
+                  >
+                    About US
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/faqs"
+                    className="block py-2 px-3 rounded"
+                    onClick={toggleDrawer}
+                  >
+                    FAQ'S
+                  </NavLink>
+                </li>
+                <li>
+                  <span
+                    className="block py-2 px-3 rounded"
+                    onClick={toggleDrawer}
+                  >
+                    Blog
+                  </span>
+                </li>
+                <li>
+                  <NavLink
+                    to="/contactus"
+                    className="block py-2 px-3 rounded"
+                    onClick={toggleDrawer}
+                  >
+                    Contact
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* Desktop Menu */}
+          <div className="hidden w-full md:block md:w-auto">
+            <ul className="main-navbar-bg font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
                 <NavLink
                   to="/"
-                  className="navlink block py-2 px-3 text-white rounded  md:p-0"
+                  className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
                   Home
@@ -57,7 +132,7 @@ const MainLayout = ({ children }) => {
               <li>
                 <NavLink
                   to="/products/category"
-                  className="navlink block py-2 px-3 text-white rounded  md:p-0"
+                  className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
                   Products
@@ -66,7 +141,7 @@ const MainLayout = ({ children }) => {
               <li>
                 <NavLink
                   to="/aboutus"
-                  className="navlink block py-2 px-3 text-white rounded  md:p-0"
+                  className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
                   About US
@@ -75,7 +150,7 @@ const MainLayout = ({ children }) => {
               <li>
                 <NavLink
                   to="/faqs"
-                  className="navlink block py-2 px-3 text-white rounded  md:p-0"
+                  className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
                   FAQ'S
@@ -84,7 +159,7 @@ const MainLayout = ({ children }) => {
               <li>
                 <span
                   href="#"
-                  className="navlink block py-2 px-3 text-white rounded  md:p-0"
+                  className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
                   Blog
@@ -93,7 +168,7 @@ const MainLayout = ({ children }) => {
               <li>
                 <NavLink
                   to="/contactus"
-                  className="navlink block py-2 px-3 text-white rounded  md:p-0"
+                  className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
                   Contact
@@ -103,6 +178,11 @@ const MainLayout = ({ children }) => {
           </div>
         </div>
       </nav>
+      <div className="whatsapp-link">
+        <NavLink to="https://api.whatsapp.com/send/?phone=919978841409&text&type=phone_number&app_absent=0">
+          <SiWhatsapp />
+        </NavLink>
+      </div>
       <main className="pt-[72px]">{children}</main>
       <footer className="bg-gray-900 dark:bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -115,21 +195,11 @@ const MainLayout = ({ children }) => {
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                 <h2 className="mb-6 text-sm font-semibold uppercase text-white">
-                  Resources
+                  Quick Links
                 </h2>
                 <ul className="text-gray-200 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <span href="/" className="hover:underline">
-                      Flowbite
-                    </span>
-                  </li>
-                  <li>
-                    <span
-                      href="https://tailwindcss.com/"
-                      className="hover:underline"
-                    >
-                      Tailwind CSS
-                    </span>
+                    <span href="/" className="hover:underline"></span>
                   </li>
                 </ul>
               </div>
@@ -137,43 +207,36 @@ const MainLayout = ({ children }) => {
                 <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                   Follow us
                 </h2>
-                <ul className="">
-                  <li className="mb-6">
-                    <div className="text-gray-200 dark:text-gray-400 font-medium flex flex-row">
-                      <span  className="hover:cursor-pointer">
-                        <a href="https://www.facebook.com/profile.php?id=61561396934662&mibextid=ZbWKwL">
-                      <FaFacebookF className="mr-5" />
-                        </a>
-                      </span>
-                      <span  className="hover:cursor-pointer" >
-                      <a href="https://www.instagram.com/agastya1723?igsh=MTVmMG13d3Y3aWJiYg==">
-                      <FaInstagram className="mr-5" />
-                      </a>
-                      </span>
-                      <span className="hover:cursor-pointer">
-                        <a href="https://api.whatsapp.com/send/?phone=919978841409&text&type=phone_number&app_absent=0">
-                      <FaWhatsapp />
-                        </a>
-                      </span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="text-gray-200 dark:text-gray-400 font-medium flex flex-row">
-                      <span className="hover:cursor-pointer" >
-                      <a href="https://pin.it/4bdQG3lqH">
-                      <FaPinterest className="mr-5" /></a>
-                      </span>
-                      <span className="hover:cursor-pointer">
-                      <a href="https://www.linkedin.com/in/agastya-international-7585a9319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                      <FaLinkedinIn className="mr-5"/>
-                      </a>
-                      </span>
-                    </div>
-                  </li>
-                </ul>
+                <div className="grid grid-cols-5 gap-2">
+                  <span className="hover:cursor-pointer">
+                    <a href="https://www.facebook.com/profile.php?id=61561396934662&mibextid=ZbWKwL">
+                      <FaFacebookF className="social-link" />
+                    </a>
+                  </span>
+                  <span className="hover:cursor-pointer">
+                    <a href="https://www.instagram.com/agastya1723?igsh=MTVmMG13d3Y3aWJiYg==">
+                      <FaInstagram className="social-link" />
+                    </a>
+                  </span>
+                  <span className="hover:cursor-pointer">
+                    <a href="https://api.whatsapp.com/send/?phone=919978841409&text&type=phone_number&app_absent=0">
+                      <FaWhatsapp className="social-link" />
+                    </a>
+                  </span>
+                  <span className="hover:cursor-pointer">
+                    <a href="https://pin.it/4bdQG3lqH">
+                      <FaPinterest className="social-link" />
+                    </a>
+                  </span>
+                  <span className="hover:cursor-pointer">
+                    <a href="https://www.linkedin.com/in/agastya-international-7585a9319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <FaLinkedinIn className="social-link" />
+                    </a>
+                  </span>
+                </div>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
+                <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                   Legal
                 </h2>
                 <ul className="text-gray-200 font-medium">
@@ -194,9 +257,9 @@ const MainLayout = ({ children }) => {
           <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm sm:text-center text-white">
-              © 2023{" "}
+              © 2024{" "}
               <span href="/" className="hover:underline">
-                company
+                Agastya International
               </span>
               . All Rights Reserved.
             </span>
