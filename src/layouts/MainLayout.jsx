@@ -50,8 +50,8 @@ const MainLayout = ({ children }) => {
             </svg>
           </button>
           {/* Mobile Drawer */}
-          <div className={`fixed inset-0 z-30 bg-gray-800 bg-opacity-75 transition-opacity ${isDrawerOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} onClick={toggleDrawer}></div>
-          <div className={`fixed inset-y-0 left-0 w-64 bg-gray-900 text-white transform transition-transform ${isDrawerOpen ? "translate-x-0" : "-translate-x-full"} md:hidden`}>
+          <div className={`fixed inset-0 z-30 bg-gray-800 z-1500 bg-opacity-75 transition-opacity ${isDrawerOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} onClick={toggleDrawer}></div>
+          <div className={`fixed inset-y-0 left-0 w-64 z-1500 bg-gray-900 text-white transform transition-transform ${isDrawerOpen ? "translate-x-0" : "-translate-x-full"} md:hidden`}>
             <div className="p-4">
               <button
                 onClick={toggleDrawer}
