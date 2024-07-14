@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
         <div className="container">
-                <h2 className="mb-10  -mt-12 flex items-center justify-center text-base font-semibold text-primary text-[40px]">
+                <h2 className="mb-10  -mt-12 flex items-center justify-center font-semibold text-primary text-4xl">
                   Contact Us
                 </h2>
           <div className="-mx-4 flex flex-wrap lg:justify-between">
