@@ -44,7 +44,7 @@ const HeroSwriper = () => {
                         <div className="title" data-swiper-parallax="-200%">
                             Our Products 
                         </div>
-                        <div className="text" data-swiper-parallax="-400%">
+                        <div className="font-mono text-2xl md:text-3xl lg:text-5xl " data-swiper-parallax="-400%">
                             <p>
                             we believe in combining sustainability with exceptional quality. 
                             </p>
@@ -60,7 +60,7 @@ const HeroSwriper = () => {
                         <div className="title" data-swiper-parallax="-200%">
                             Our Products are
                         </div>
-                        <div className="text" data-swiper-parallax="-400%">
+                        <div className="font-mono text-2xl md:text-3xl lg:text-5xl " data-swiper-parallax="-400%">
                             <p>
                             reduce plastic waste and create a healthier planet for future generations.
                             </p></div>
@@ -74,7 +74,7 @@ const HeroSwriper = () => {
                     data-swiper-parallax="1800">      <div className='main-slide-content'>    <div className="title" data-swiper-parallax="-200%">
                         Our Products are
                     </div >
-                        <div className="text" data-swiper-parallax="-400%">
+                        <div className="font-mono text-2xl md:text-3xl lg:text-5xl " data-swiper-parallax="-400%">
                             <p>
                             Customer satisfaction is at the heart of what we do.
                             </p>
@@ -85,10 +85,10 @@ const HeroSwriper = () => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}
-                    data-swiper-parallax="1800">      <div className='main-slide-content'>    <div className="title" data-swiper-parallax="-200%">
+                    data-swiper-parallax="1800">      <div className='main-slide-content '>    <div className="title " data-swiper-parallax="-200%">
                         Our Products are
                     </div >
-                        <div className="text" data-swiper-parallax="-400%">
+                        <div className="font-mono text-2xl md:text-3xl lg:text-5xl " data-swiper-parallax="-400%">
                             <p>
                             offers cutting-edge products designed to meet the highest standards.
                             </p>
@@ -102,7 +102,7 @@ const HeroSwriper = () => {
                     data-swiper-parallax="1800">      <div className='main-slide-content'>    <div className="title" data-swiper-parallax="-200%">
                         Our Products are
                     </div >
-                        <div className="text" data-swiper-parallax="-400%">
+                        <div className="font-mono text-2xl md:text-3xl lg:text-5xl " data-swiper-parallax="-400%">
                             <p>
                             emphasizing sustainability, quality, innovation, safety, and customer satisfaction.
                             </p>

@@ -5,12 +5,12 @@ const Contact = () => {
     <>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
         <div className="container">
-                <h2 className="mb-10  -mt-12 flex items-center justify-center text-base font-semibold text-primary text-[34px]">
+                <h2 className="mb-10  -mt-12 flex items-center justify-center text-base font-semibold text-primary text-[40px]">
                   Contact Us
                 </h2>
           <div className="-mx-4 flex flex-wrap lg:justify-between">
-            <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div className="mb-12 max-w-[570px] lg:mb-0 ml-16">
+            <div className="w-full px-4 lg:w-2/5 xl:w-6/12">
+              <div className="mb-12 max-w-[570px] lg:mb-0 ml-5 md:ml-10 lg:ml-16 ">
                 <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-dark-6 sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   GET IN TOUCH WITH US
                 </h2>
@@ -108,7 +108,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 mr-16">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 mx-5 md:mx-8 lg:mr-6 ">
               <div className="relative rounded-lg bg-white p-8 shadow-xl dark:bg-dark-2 sm:p-12">
                 <form>
                   <ContactInputBox
