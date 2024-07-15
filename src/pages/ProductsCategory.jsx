@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const ProductsCategory = () => {
   const [active, setActive] = useState('All');
-  const categories = ['All', 'Sugarcane Based', 'Plant Based'];
+  const categories = ['All', 'Sugarcane Based', 'Leaf Based'];
 
   const handleActiveCategory = (item) => () => {
     setActive(item);

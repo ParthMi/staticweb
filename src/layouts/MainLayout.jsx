@@ -22,7 +22,9 @@ const MainLayout = ({ children }) => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <span className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <NavLink to="/">
               <img src="agastya/logo.png" className="main-logo" />
+              </NavLink>
             </span>
           </span>
           <button
@@ -98,12 +100,13 @@ const MainLayout = ({ children }) => {
                   </NavLink>
                 </li>
                 <li>
-                  <span
+                <NavLink
+                    to="/blog"
                     className="block py-2 px-3 rounded"
                     onClick={toggleDrawer}
                   >
                     Blog
-                  </span>
+                  </NavLink>
                 </li>
                 <li>
                   <NavLink
@@ -157,13 +160,13 @@ const MainLayout = ({ children }) => {
                 </NavLink>
               </li>
               <li>
-                <span
-                  href="#"
+              <NavLink
+                  to="/blog"
                   className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
                   Blog
-                </span>
+                </NavLink>
               </li>
               <li>
                 <NavLink
@@ -189,7 +192,9 @@ const MainLayout = ({ children }) => {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
+                <NavLink to="/">
                 <img src="agastya/logo.png" className="main-logo h-[60px]" />
+              </NavLink>
               </span>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -199,7 +204,28 @@ const MainLayout = ({ children }) => {
                 </h2>
                 <ul className="text-gray-200 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <span href="/" className="hover:underline"></span>
+                    <NavLink
+                    to='/'
+                    classname="hover:underline"
+                    aria-current="page">Home</NavLink>
+                  </li>
+                  <li className="mb-4">
+                    <NavLink
+                    to='/products/category'
+                    classname="hover:underline"
+                    aria-current="page">Product</NavLink>
+                  </li>
+                  <li className="mb-4">
+                    <NavLink
+                    to='/aboutus'
+                    classname="hover:underline"
+                    aria-current="page">About Us</NavLink>
+                  </li>
+                  <li className="mb-4">
+                    <NavLink
+                    to='/contactus'
+                    classname="hover:underline"
+                    aria-current="page">Contect Us</NavLink>
                   </li>
                 </ul>
               </div>
