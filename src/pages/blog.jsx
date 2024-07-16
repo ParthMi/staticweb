@@ -1,6 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const blog = () => {
+const Blog = () => {
+    const [blog, setblog]=useState([]);
+    const [isLoading, setisLoading] = useState(true);
+    const [error, seterror] = useState(null);
+
+    useEffect(() => {
+      const fetchData = async () =>{
+        try {
+         const response = await fetch('/data/blog.json');
+         if (!response.ok) {
+            throw new Error('Failed to fetch data');
+         } 
+         const data = await response.json();
+         setblog(data);
+         setisLoading(false)
+        } catch (error) {
+            seterror(error);
+            setisLoading(false);
+        }
+      };
+      fetchData();
+    }, []);
+
+    if (isLoading) {
+        return <p>Loading...</p>;
+    }
+
+    if (error) {
+        return <p>Error: {error.message}</p>;
+    }
   return (
     <>
       <div className="mx-auto text-center faq-bg p-4 md:p-10">
@@ -9,31 +38,31 @@ const blog = () => {
             Blog
           </h2>
         </center>
-        {/* <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do</p> */}
-      </div>
+        </div>
       <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {blog.map((blog) => (
+        <div>
           <a
             className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
             href="#"
           >
             <div className="aspect-w-16 aspect-h-11">
               <img
-                className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
+                className="w-full  object-cover rounded-xl"
+                src={blog.image}
                 alt=""
               />
             </div>
             <div className="my-4">
               <h3 className="text-xl font-semibold text-gray-800">
-                How Google Assistant now helps you record stories for kids
+                {blog.title}
               </h3>
               <p className="mt-5 text-gray-600">
-                Google is constantly updating its consumer AI, Google Assistant,
-                with new features.
+                {blog.discription}
               </p>
             </div>
-            <div className="mt-auto flex items-center gap-x-3">
+            {/* <div className="mt-auto flex items-center gap-x-3">
               <img
                 className="size-8 rounded-full"
                 src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
@@ -42,173 +71,14 @@ const blog = () => {
               <div>
                 <h5 className="text-sm text-gray-800">By Aaron Larsson</h5>
               </div>
-            </div>
+            </div> */}
           </a>
-
-          <a
-            className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
-            href="#"
-          >
-            <div className="aspect-w-16 aspect-h-11">
-              <img
-                className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
-                alt=""
-              />
-            </div>
-            <div className="my-4">
-              <h3 className="text-xl font-semibold text-gray-800">
-                How Google Assistant now helps you record stories for kids
-              </h3>
-              <p className="mt-5 text-gray-600">
-                Google is constantly updating its consumer AI, Google Assistant,
-                with new features.
-              </p>
-            </div>
-            <div className="mt-auto flex items-center gap-x-3">
-              <img
-                className="size-8 rounded-full"
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                alt=""
-              />
-              <div>
-                <h5 className="text-sm text-gray-800">By Aaron Larsson</h5>
-              </div>
-            </div>
-          </a>
-
-          <a
-            className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
-            href="#"
-          >
-            <div className="aspect-w-16 aspect-h-11">
-              <img
-                className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
-                alt=""
-              />
-            </div>
-            <div className="my-4">
-              <h3 className="text-xl font-semibold text-gray-800">
-                How Google Assistant now helps you record stories for kids
-              </h3>
-              <p className="mt-5 text-gray-600">
-                Google is constantly updating its consumer AI, Google Assistant,
-                with new features.
-              </p>
-            </div>
-            <div className="mt-auto flex items-center gap-x-3">
-              <img
-                className="size-8 rounded-full"
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                alt=""
-              />
-              <div>
-                <h5 className="text-sm text-gray-800">By Aaron Larsson</h5>
-              </div>
-            </div>
-          </a>
-
-          <a
-            className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
-            href="#"
-          >
-            <div className="aspect-w-16 aspect-h-11">
-              <img
-                className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
-                alt=""
-              />
-            </div>
-            <div className="my-4">
-              <h3 className="text-xl font-semibold text-gray-800">
-                How Google Assistant now helps you record stories for kids
-              </h3>
-              <p className="mt-5 text-gray-600">
-                Google is constantly updating its consumer AI, Google Assistant,
-                with new features.
-              </p>
-            </div>
-            <div className="mt-auto flex items-center gap-x-3">
-              <img
-                className="size-8 rounded-full"
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                alt=""
-              />
-              <div>
-                <h5 className="text-sm text-gray-800">By Aaron Larsson</h5>
-              </div>
-            </div>
-          </a>
-
-          <a
-            className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
-            href="#"
-          >
-            <div className="aspect-w-16 aspect-h-11">
-              <img
-                className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
-                alt=""
-              />
-            </div>
-            <div className="my-4">
-              <h3 className="text-xl font-semibold text-gray-800">
-                How Google Assistant now helps you record stories for kids
-              </h3>
-              <p className="mt-5 text-gray-600">
-                Google is constantly updating its consumer AI, Google Assistant,
-                with new features.
-              </p>
-            </div>
-            <div className="mt-auto flex items-center gap-x-3">
-              <img
-                className="size-8 rounded-full"
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                alt=""
-              />
-              <div>
-                <h5 className="text-sm text-gray-800">By Aaron Larsson</h5>
-              </div>
-            </div>
-          </a>
-
-          <a
-            className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
-            href="#"
-          >
-            <div className="aspect-w-16 aspect-h-11">
-              <img
-                className="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"
-                alt=""
-              />
-            </div>
-            <div className="my-4">
-              <h3 className="text-xl font-semibold text-gray-800">
-                How Google Assistant now helps you record stories for kids
-              </h3>
-              <p className="mt-5 text-gray-600">
-                Google is constantly updating its consumer AI, Google Assistant,
-                with new features.
-              </p>
-            </div>
-            <div className="mt-auto flex items-center gap-x-3">
-              <img
-                className="size-8 rounded-full"
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                alt=""
-              />
-              <div>
-                <h5 className="text-sm text-gray-800">By Aaron Larsson</h5>
-              </div>
-            </div>
-          </a>
-          {/* Add more BlogCard components as needed */}
+        </div>
+      ))}
         </div>
       </div>
     </>
   );
 };
 
-export default blog;
+export default Blog;

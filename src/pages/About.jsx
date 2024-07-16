@@ -24,7 +24,7 @@ const About = () => {
               </p>
             </div>
             <div className="w-full md:w-1/2 p-4">
-              <img className="rounded-lg shadow-lg" src="agastya/hcp1.jpg" alt="Our Story" />
+              <img className="rounded-lg shadow-lg" src="agastya/cycle.jpg" alt="Our Story" />
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/2 p-4">
-              <img className="rounded-lg shadow-lg" src="https://dinearth.com/images/about-mission.jpg" alt="Our Mission" />
+              <img className="rounded-lg shadow-lg" src="agastya/wherehouse1.jpg" alt="Our Mission" />
             </div>
             <div className="w-full md:w-1/2 p-4">
               <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
@@ -62,7 +62,7 @@ const About = () => {
               </p>
             </div>
             <div className="w-full md:w-1/2 p-4">
-              <img className="rounded-lg shadow-lg" src="https://dinearth.com/images/about-values.jpg" alt="Our Values" />
+              <img className="rounded-lg shadow-lg w-full h-full" src="agastya/map.jpg" alt="Our Values" />
             </div>
           </div>
         </div>
@@ -76,25 +76,19 @@ const About = () => {
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">
               <div className="bg-white rounded-lg shadow-lg p-4">
-                <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-1.jpg" alt="Team Member 1" />
-                <h3 className="text-xl font-semibold text-center">John Doe</h3>
+                {/* <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-1.jpg" alt="Team Member 1" /> */}
+                <h3 className="text-xl font-semibold text-center">Kenil Radadiya</h3>
                 <p className="text-gray-700 text-center">CEO</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">
               <div className="bg-white rounded-lg shadow-lg p-4">
-                <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-2.jpg" alt="Team Member 2" />
-                <h3 className="text-xl font-semibold text-center">Jane Smith</h3>
+                {/* <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-2.jpg" alt="Team Member 2" /> */}
+                <h3 className="text-xl font-semibold text-center">Maulik Rathod</h3>
                 <p className="text-gray-700 text-center">COO</p>
               </div>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4 p-4">
-              <div className="bg-white rounded-lg shadow-lg p-4">
-                <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-3.jpg" alt="Team Member 3" />
-                <h3 className="text-xl font-semibold text-center">Michael Johnson</h3>
-                <p className="text-gray-700 text-center">CTO</p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>

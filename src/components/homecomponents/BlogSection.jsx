@@ -12,61 +12,43 @@ const BlogSection = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <span className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2" href="#">
               <div className="aspect-w-16 aspect-h-11">
-                <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1633114128174-2f8aa49759b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" />
+                <img className="w-full object-cover rounded-xl" src="agastya/blog/blog11.jpg" alt="" />
               </div>
               <div className="my-4">
                 <h3 className="text-xl font-semibold text-gray-800">
-                  Announcing a free plan for small teams
+                CLIMATE CONTROL & HOW THE EARTH IS CHANGING DURING COVID - SUSTAINABLE LIVING & ECO FRIENDLY PACKAGING
                 </h3>
                 <p className="mt-5 text-gray-600">
-                  At Wake, our mission has always been focused on bringing openness.
+                  While the world comes to grips with the Corona Virus and hopes for a cure, there should be a weather eye that needs to be placed on Climate Change and the sheer ill effects of it on the planet. Climate change is happening. It is real and it is dangerous.
                 </p>
-              </div>
-              <div className="mt-auto flex items-center gap-x-3">
-                <img className="size-8 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="" />
-                <div>
-                  <h5 className="text-sm text-gray-800">By Lauren Waller</h5>
-                </div>
               </div>
             </span>
 
             <span className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2" href="#">
               <div className="aspect-w-16 aspect-h-11">
-                <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1562851529-c370841f6536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80" alt="" />
+                <img className="w-full object-cover rounded-xl" src="agastya/blog/blog7.jpg" alt="" />
               </div>
               <div className="my-4">
                 <h3 className="text-xl font-semibold text-gray-800">
-                  How Google Assistant now helps you record stories for kids
+                ECO FRIENDLY TABLEWARE GETS COVERED AS COMPANY OF THE YEAR - GREEN PRODUCTS - CEO INSIGHTS
                 </h3>
                 <p className="mt-5 text-gray-600">
-                  Google is constantly updating its consumer AI, Google Assistant, with new features.
+                  A greater awareness for improved sustainability and climate change action has finally resulted in the regulation and banning of single-use plastics access several places the world over. And not a minute too soon.
                 </p>
-              </div>
-              <div className="mt-auto flex items-center gap-x-3">
-                <img className="size-8 rounded-full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="" />
-                <div>
-                  <h5 className="text-sm text-gray-800">By Aaron Larsson</h5>
-                </div>
               </div>
             </span>
 
             <span className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2" href="#">
               <div className="aspect-w-16 aspect-h-11">
-                <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1521321205814-9d673c65c167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3548&q=80" alt="" />
+                <img className="w-full object-cover rounded-xl" src="agastya/blog/blog12.jpg" alt="" />
               </div>
               <div className="my-4">
                 <h3 className="text-xl font-semibold text-gray-800">
-                  Front accounts - let's work together
+                THE FUTURE: ECO FRIENDLY PACKAGING FOR SCHOOLS, HOMES, LARGE BUSINESSES
                 </h3>
                 <p className="mt-5 text-gray-600">
-                  Are you an accountant? Are you a company formation advisor?
+                Sustainable living is not just a catchword any longer. It has to become a way of life.and it needs to become a way of life for more than a couple of future generations to follow. The need for sustainable living is not just in life choices. It is a conscious decision that we need to make for lifestyle choices as well. 
                 </p>
-              </div>
-              <div className="mt-auto flex items-center gap-x-3">
-                <img className="size-8 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="" />
-                <div>
-                  <h5 className="text-sm text-gray-800">By Lauren Waller</h5>
-                </div>
               </div>
             </span>
           </div>

@@ -6,8 +6,10 @@ import {
   FaWhatsapp,
   FaPinterest,
   FaLinkedinIn,
+  FaPhoneAlt,
 } from "react-icons/fa";
 import { SiWhatsapp } from "react-icons/si";
+import { MdMail } from "react-icons/md";
 
 const MainLayout = ({ children }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -195,6 +197,16 @@ const MainLayout = ({ children }) => {
                 <NavLink to="/">
                 <img src="agastya/logo.png" className="main-logo h-[60px]" />
               </NavLink>
+              <div className="w-full mt-5 mb-3">
+                    <p className="text-base text-body-color dark:text-dark-6">
+                     Contact: (+91) 997 884 1409
+                    </p>
+                  </div>
+                  <div className="w-full">
+                    <p className="text-base text-body-color dark:text-dark-6">
+                    E-Mail: agastyainternational0@gmail.com
+                    </p>
+                  </div>
               </span>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

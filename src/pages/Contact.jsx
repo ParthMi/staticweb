@@ -37,7 +37,7 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      Surat, Gujarat, India
+                      Varachha, Surat, Gujarat, India
                     </p>
                   </div>
                 </div>
