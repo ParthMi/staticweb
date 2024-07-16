@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import {
   FaFacebookF,
@@ -7,9 +7,11 @@ import {
   FaPinterest,
   FaLinkedinIn,
   FaPhoneAlt,
+  FaArrowCircleUp,
 } from "react-icons/fa";
 import { SiWhatsapp } from "react-icons/si";
 import { MdMail } from "react-icons/md";
+import { TbSquareRoundedArrowUpFilled } from "react-icons/tb";
 
 const MainLayout = ({ children }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -18,8 +20,34 @@ const MainLayout = ({ children }) => {
     setIsDrawerOpen(!isDrawerOpen);
   };
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+      const toggleVisibility = () => {
+          if (window.pageYOffset > 300) {
+              setIsVisible(true);
+          } else {
+              setIsVisible(false);
+          }
+      };
+
+      window.addEventListener('scroll', toggleVisibility);
+
+      return () => window.removeEventListener('scroll', toggleVisibility);
+  }, []);
+
+  const scrollToTop = () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  };
+
   return (
     <>
+    <div className={`scroll-to-top ${isVisible ? 'show' : 'hide'}`} onClick={scrollToTop}>
+            <TbSquareRoundedArrowUpFilled />
+        </div>
       <nav className="fixed z-20 w-full main-navbar-bg border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <span className="flex items-center space-x-3 rtl:space-x-reverse">

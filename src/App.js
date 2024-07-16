@@ -9,10 +9,12 @@ import Contact from './pages/Contact';
 import Blog from './pages/blog';
 import ErrorPage from './pages/error'
 import Products from './pages/Products';
+import ScrollToTop from '../src/components/common/ScrollToTop'
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <MainLayout>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -299,3 +299,33 @@ body {
     display: none;
   }
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  font-size: 4rem;
+  color: #1f2937;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s, visibility 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-to-top.hide {
+  opacity: 0;
+  visibility: hidden;
+}
