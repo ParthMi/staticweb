@@ -10,6 +10,7 @@ import Blog from './pages/blog';
 import ErrorPage from './pages/error'
 import Products from './pages/Products';
 import ScrollToTop from '../src/components/common/ScrollToTop'
+import BlogInfo from './pages/BlogInfo';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/aboutus" element={<About />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:title/:id" element={<BlogInfo />} />
           <Route path="/contactus" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

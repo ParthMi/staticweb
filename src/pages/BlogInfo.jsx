@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
-const Blog = () => {
-  const [blog, setBlog] = useState([]);
+const BlogInfo = () => {
+  const { title,id } = useParams();
+  const [blog, setBlog] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [visibleCount, setVisibleCount] = useState(8);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -15,7 +15,12 @@ const Blog = () => {
           throw new Error("Failed to fetch data");
         }
         const data = await response.json();
-        setBlog(data);
+        const blogPost = data.find((post) => post.id === id);
+        if (blogPost) {
+          setBlog(blogPost);
+        } else {
+          throw new Error("Blog post not found");
+        }
         setIsLoading(false);
       } catch (error) {
         setError(error);
@@ -23,11 +28,7 @@ const Blog = () => {
       }
     };
     fetchData();
-  }, []);
-
-  const loadMore = () => {
-    setVisibleCount((prevCount) => prevCount + 8);
-  };
+  }, [title]);
 
   if (isLoading) {
     return (
@@ -59,55 +60,35 @@ const Blog = () => {
     return <p>Error: {error.message}</p>;
   }
 
+  if (!blog) {
+    return <p>No blog post found.</p>;
+  }
+
   return (
-    <>
-      <div className="mx-auto text-center faq-bg p-4 md:p-10">
-        <center>
-          <h2 className="text-3xl max-w-xl py-6 text-center font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-            Blogs
-          </h2>
-        </center>
-      </div>
-      <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-          {blog.slice(0, visibleCount).map((blog) => (
-            <div key={blog.id}>
-              <NavLink
-                className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
-                to={`/blog/${blog.title}/${blog.id}`}
-              >
-                <div className="image-container">
-                  <img
-                    className="w-full h-full object-cover rounded-xl"
-                    src={blog.image}
-                    alt=""
-                  />
-                </div>
-                <div className="my-4">
-                  <h3 className="text-md font-semibold text-gray-800">
-                    {blog.title}
-                  </h3>
-                  <p className="mt-5 text-gray-600 truncate-3-lines">
-                    {blog.description}
-                  </p>
-                </div>
-              </NavLink>
-            </div>
-          ))}
+    <div className="container mx-auto max-w-3xl px-4 py-12 md:px-6 md:py-16 lg:py-20">
+      <article className="prose prose-gray dark:prose-invert">
+        <div className="space-y-2 not-prose">
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
+            {blog.title}
+          </h1>
+          <p className="text-muted-foreground">{blog.sub_description}</p>
         </div>
-        {visibleCount < blog.length && (
-          <div className="mt-12 text-center">
-            <button
-              className="py-3 px-4 inline-flex items-center gap-x-1 text-sm font-medium rounded-full border border-gray-200 bg-white text-blue-600 shadow-sm hover:bg-gray-50"
-              onClick={loadMore}
-            >
-              Load More
-            </button>
-          </div>
-        )}
-      </div>
-    </>
+        <figure className="my-8 overflow-hidden rounded-lg">
+          <img
+            src={blog.image}
+            alt={blog.title}
+            width={1200}
+            height={600}
+            className="aspect-[4/2] w-full object-cover"
+          />
+          <figcaption className="mt-2 text-center text-sm text-muted-foreground">
+            {blog.caption || "Embracing sustainable living"}
+          </figcaption>
+        </figure>
+        <p>{blog.description}</p>
+      </article>
+    </div>
   );
 };
 
-export default Blog;
+export default BlogInfo;
