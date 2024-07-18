@@ -24,7 +24,7 @@ function App() {
           <Route path="/aboutus" element={<About />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:title/:id" element={<BlogInfo />} />
+          <Route path="/blog/:title" element={<BlogInfo />} />
           <Route path="/contactus" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

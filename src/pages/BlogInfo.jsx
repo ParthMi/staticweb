@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const BlogInfo = () => {
-  const { title,id } = useParams();
+  const { title } = useParams();
   const [blog, setBlog] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -15,7 +15,8 @@ const BlogInfo = () => {
           throw new Error("Failed to fetch data");
         }
         const data = await response.json();
-        const blogPost = data.find((post) => post.id === id);
+        const decodedTitle = decodeURIComponent(title);
+        const blogPost = data.find((post) => post.title === decodedTitle);
         if (blogPost) {
           setBlog(blogPost);
         } else {
@@ -71,7 +72,7 @@ const BlogInfo = () => {
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
             {blog.title}
           </h1>
-          <p className="text-muted-foreground">{blog.sub_description}</p>
+          <p className="text-muted-foreground">{blog.description}</p>
         </div>
         <figure className="my-8 overflow-hidden rounded-lg">
           <img
@@ -85,7 +86,7 @@ const BlogInfo = () => {
             {blog.caption || "Embracing sustainable living"}
           </figcaption>
         </figure>
-        <p>{blog.description}</p>
+        <p>{blog.content}</p>
       </article>
     </div>
   );

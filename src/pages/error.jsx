@@ -17,13 +17,13 @@ const error = () => {
           Go Home
         </NavLink>
       </div>
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <img 
           src="https://images.unsplash.com/photo-1587982900090-380ae7d1b48c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80" 
           alt="Error Page Illustration" 
           className="max-w-full h-auto rounded-lg shadow-lg"
         />
-      </div>
+      </div> */}
     </div>
   )
 }

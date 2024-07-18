@@ -74,13 +74,13 @@ const Blog = () => {
             <div key={blog.id}>
               <NavLink
                 className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2"
-                to={`/blog/${blog.title}/${blog.id}`}
+                to={`/blog/${encodeURIComponent(blog.title)}`}
               >
                 <div className="image-container">
                   <img
                     className="w-full h-full object-cover rounded-xl"
                     src={blog.image}
-                    alt=""
+                    alt={blog.title}
                   />
                 </div>
                 <div className="my-4">
