@@ -72,21 +72,22 @@ const BlogInfo = () => {
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
             {blog.title}
           </h1>
-          <p className="text-muted-foreground">{blog.description}</p>
+          <p className="text-muted-foreground">{blog.sub_description}</p>
         </div>
-        <figure className="my-8 overflow-hidden rounded-lg">
-          <img
-            src={blog.image}
-            alt={blog.title}
-            width={1200}
-            height={600}
-            className="aspect-[4/2] w-full object-cover"
-          />
+        <div className="my-8 overflow-hidden rounded-lg">
+        <img
+  src={`${process.env.PUBLIC_URL}/${blog.image}`}
+  alt={blog.title}
+  width={1200}
+  height={600}
+  className="aspect-[4/2] w-full object-cover"
+/>
+
           <figcaption className="mt-2 text-center text-sm text-muted-foreground">
-            {blog.caption || "Embracing sustainable living"}
+            {blog.title || "Embracing sustainable living"}
           </figcaption>
-        </figure>
-        <p>{blog.content}</p>
+        </div>
+        <p>{blog.description}</p>
       </article>
     </div>
   );
