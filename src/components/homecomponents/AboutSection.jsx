@@ -13,14 +13,14 @@ const AboutSection = () => {
             <div className="w-full px-3 sm:px-4 xl:w-1/2">
               <div className="py-3 sm:py-4">
                 <img
-                  src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-1.jpg"
+                  src="agastya/habout3.jpg"
                   alt=""
                   className="w-full h-full sm:h-[250px] object-cover rounded-2xl"
                 />
               </div>
               <div className="py-3 sm:py-4">
                 <img
-                  src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-2.jpg"
+                  src="agastya/habout2.jpg"
                   alt=""
                   className="w-full h-full sm:h-[250px] object-cover rounded-2xl"
                 />
@@ -29,7 +29,7 @@ const AboutSection = () => {
             <div className="w-full px-3 sm:px-4 xl:w-1/2">
               <div className="relative z-0 my-4">
                 <img
-                  src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-3.jpg"
+                  src="agastya/habout1.jpg"
                   alt=""
                   className="w-full rounded-2xl"
                 />
