@@ -104,7 +104,7 @@ const MainLayout = ({ children }) => {
                 </li>
                 <li>
                   <NavLink
-                    to="/products/category"
+                    to="/products"
                     className="block py-2 px-3 rounded"
                     onClick={toggleDrawer}
                   >
@@ -164,7 +164,7 @@ const MainLayout = ({ children }) => {
               </li>
               <li>
                 <NavLink
-                  to="/products/category"
+                  to="/products"
                   className="navlink block py-2 px-3 text-white rounded md:p-0"
                   aria-current="page"
                 >
@@ -251,7 +251,7 @@ const MainLayout = ({ children }) => {
                   </li>
                   <li className="mb-4">
                     <NavLink
-                    to='/products/category'
+                    to='/products'
                     classname="hover:underline"
                     aria-current="page">Product</NavLink>
                   </li>
