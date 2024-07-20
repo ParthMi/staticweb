@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import loader from '../../images/loader/loader.gif';
 
 const BlogSection = () => {
   const [blogs, setBlogs] = useState([]);
@@ -25,7 +26,9 @@ const BlogSection = () => {
   }, []);
 
   if (isLoading) {
-    return <p>Loading...</p>;
+    return <p>
+       <img src={loader} className="h-[60px]" alt="loader"/>
+    </p>;
   }
 
   if (error) {

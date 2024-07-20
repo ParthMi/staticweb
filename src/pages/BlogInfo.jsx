@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import loader from '../images/loader/loader.gif'
 
 const BlogInfo = () => {
   const { title } = useParams();
@@ -34,7 +35,8 @@ const BlogInfo = () => {
   if (isLoading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <div role="status">
+        <img src={loader} className="h-[60px]" alt="loader"/>
+        {/* <div role="status">
           <svg
             aria-hidden="true"
             className="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
@@ -52,7 +54,7 @@ const BlogInfo = () => {
             />
           </svg>
           <span className="sr-only">Loading...</span>
-        </div>
+        </div> */}
       </div>
     );
   }
