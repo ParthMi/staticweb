@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -79,6 +80,7 @@ const About = () => {
                 {/* <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-1.jpg" alt="Team Member 1" /> */}
                 <h3 className="text-xl font-semibold text-center">Kenil Radadiya</h3>
                 <p className="text-gray-700 text-center">CEO</p>
+                
               </div>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">

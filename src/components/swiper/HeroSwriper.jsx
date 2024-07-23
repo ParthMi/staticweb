@@ -14,6 +14,46 @@ import { Parallax, Pagination, Navigation, Autoplay } from 'swiper/modules';
 const HeroSwiper = () => {
     return (
         <>
+        <style>
+                {`
+                .parallax-bg {
+                    background-size: cover;
+                    background-position: center;
+                }
+                .parallax-bg.home1 {
+                    background-image: url('agastya/home5.jpg');
+                }
+                .parallax-bg.home2 {
+                    background-image: url('agastya/home6.jpg');
+                }
+                    .parallax-bg.home3 {
+                    background-image: url('agastya/home7.jpg');
+                }
+                .parallax-bg.home4 {
+                    background-image: url('agastya/home8.jpg');
+                }
+                .parallax-bg.home5 {
+                    background-image: url('agastya/home9.jpg');
+                }
+                @media (max-width: 768px) {
+                    .parallax-bg.home1 {
+                        background-image: url('agastya/homesm1.jpg'); /* Small device image for home2 */
+                    }
+                    .parallax-bg.home2 {
+                        background-image: url('agastya/homesm2.jpg'); /* Small device image for home3 */
+                    }
+                    .parallax-bg.home3 {
+                        background-image: url('agastya/homesm3.jpg'); /* Small device image for home2 */
+                    }
+                    .parallax-bg.home4 {
+                        background-image: url('agastya/homesm4.jpg'); /* Small device image for home2 */
+                    }
+                    .parallax-bg.home5 {
+                        background-image: url('agastya/homesm5.jpg'); /* Small device image for home2 */
+                    }
+                }
+                `}
+            </style>
             <Swiper
                 style={{
                     '--swiper-navigation-color': '#fff',
@@ -35,14 +75,7 @@ const HeroSwiper = () => {
                 className="mySwiper creative-showcase--slider"
             >
                 <SwiperSlide
-                    className='parallax-bg'
-                    style={{
-                        position: 'relative',
-                        overflow: 'hidden',
-                        backgroundImage: 'url(agastya/home2.jpg)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
+                    className='parallax-bg home1'
                     data-swiper-parallax="1800"
                 >
                     <div
@@ -75,14 +108,7 @@ const HeroSwiper = () => {
                 </SwiperSlide>
 
                 <SwiperSlide
-                    className='parallax-bg'
-                    style={{
-                        position: 'relative',
-                        overflow: 'hidden',
-                        backgroundImage: 'url(agastya/home3.jpg)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
+                    className='parallax-bg home2'
                     data-swiper-parallax="1800"
                 >
                     <div
@@ -115,14 +141,7 @@ const HeroSwiper = () => {
                 </SwiperSlide>
 
                 <SwiperSlide
-                    className='parallax-bg'
-                    style={{
-                        position: 'relative',
-                        overflow: 'hidden',
-                        backgroundImage: 'url(agastya/home1.jpg)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
+                    className='parallax-bg home3'
                     data-swiper-parallax="1800"
                 >
                     <div
@@ -155,14 +174,7 @@ const HeroSwiper = () => {
                 </SwiperSlide>
 
                 <SwiperSlide
-                    className='parallax-bg'
-                    style={{
-                        position: 'relative',
-                        overflow: 'hidden',
-                        backgroundImage: 'url(agastya/home4.jpg)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
+                    className='parallax-bg home4'
                     data-swiper-parallax="1800"
                 >
                     <div
@@ -195,14 +207,7 @@ const HeroSwiper = () => {
                 </SwiperSlide>
 
                 <SwiperSlide
-                    className='parallax-bg'
-                    style={{
-                        position: 'relative',
-                        overflow: 'hidden',
-                        backgroundImage: 'url(agastya/home5.jpg)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
+                    className='parallax-bg home5'
                     data-swiper-parallax="1800"
                 >
                     <div
@@ -254,3 +259,4 @@ const HeroSwiper = () => {
 }
 
 export default HeroSwiper;
+
