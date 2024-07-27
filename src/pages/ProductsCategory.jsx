@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import loader from '../images/loader/loader.gif';
+import { NavLink } from "react-router-dom";
 
 const ProductsCategory = () => {
   const [products, setProducts] = useState([]);
@@ -78,28 +79,30 @@ const ProductsCategory = () => {
           </div>
           {isLoading ? (
             <div className="flex justify-center items-center min-h-[20vh]">
-            <img src={loader} className="h-[60px]" alt="loader"/>
+              <img src={loader} className="h-[60px]" alt="loader" />
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
               {filteredProducts.map(product => (
-                <div key={product.id} className="relative bg-cover group rounded-3xl bg-center overflow-hidden mx-auto cursor-pointer filtered-product">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="h-full w-full object-cover"
-                  />
-                  <div className="absolute z-10 bottom-3 left-0 mx-3 p-3 bg-white w-[calc(100%-24px)] rounded-xl shadow-sm shadow-transparent transition-all duration-500 group-hover:shadow-indigo-200 group-hover:bg-indigo-50">
-                    <div className="flex items-center justify-between mb-2">
-                      <h6 className="font-semibold text-base leading-7 text-black ">
-                        {toTitleCase(product['sub-cat'])}
-                      </h6>
+                <NavLink to={`/products/${product['sub-cat']}`}>
+                  <div key={product.id} className="relative bg-cover group rounded-3xl bg-center overflow-hidden mx-auto cursor-pointer filtered-product">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="h-full w-full object-cover"
+                    />
+                    <div className="absolute z-10 bottom-3 left-0 mx-3 p-3 bg-white w-[calc(100%-24px)] rounded-xl shadow-sm shadow-transparent transition-all duration-500 group-hover:shadow-indigo-200 group-hover:bg-indigo-50">
+                      <div className="flex items-center justify-between mb-2">
+                        <h6 className="font-semibold text-base leading-7 text-black ">
+                          {toTitleCase(product['sub-cat'])}
+                        </h6>
+                      </div>
+                      <p className="text-[14px] font-bold text-gray-500 text-indigo-600">
+                        {toTitleCase(product.category)}
+                      </p>
                     </div>
-                    <p className="text-xs leading-5 text-gray-500 text-indigo-600">
-                      {toTitleCase(product.category)}
-                    </p>
                   </div>
-                </div>
+                </NavLink>
               ))}
             </div>
           )}

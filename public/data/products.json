@@ -7,7 +7,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimention": "16mm",
         "packet": "1000 pices/cartoon",
-        "image":"agastya/product/srp1.jpg"
+        "image":["agastya/product/srp1.jpg"]
     },
     {
         "id": "102",
@@ -17,7 +17,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image":"agastya/product/ssp1.jpg"
+        "image":["agastya/product/ssp1.jpg"]
     },
     {
         "id": "103",
@@ -27,7 +27,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image":"agastya/product/spp1.jpg"
+        "image":["agastya/product/spp1.jpg"]
     },
     {
         "id": "104",
@@ -37,7 +37,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image":"agastya/product/sop1.jpg"
+        "image":["agastya/product/sop1.jpg"]
     },
     {
         "id": "105",
@@ -47,7 +47,7 @@
         "size": "12oz, 16oz",
         "dimension": "20mm",
         "packet": "500 pieces/carton",
-        "image":"agastya/product/sb1.jpg"
+        "image":["agastya/product/sb1.jpg"]
     },
     {
         "id": "106",
@@ -57,7 +57,7 @@
         "size": "10inch x 6inch",
         "dimension": "25mm",
         "packet": "300 pieces/carton",
-        "image":"agastya/product/st1.jpg"
+        "image":["agastya/product/st1.jpg"]
     },
     {
         "id": "107",
@@ -67,7 +67,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image":"agastya/product/scb1.jpg"
+        "image":["agastya/product/scb1.jpg"]
     },
     {
         "id": "108",
@@ -77,7 +77,7 @@
         "size": "12oz, 16oz",
         "dimension": "20mm",
         "packet": "500 pieces/carton",
-        "image":"agastya/product/sstr1.jpg"
+        "image":["agastya/product/sstr1.jpg"]
     },
     {
         "id": "109",
@@ -87,7 +87,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image":"agastya/product/sg1.jpg"
+        "image":["agastya/product/sg1.jpg"]
     },
     {
         "id": "110",
@@ -97,7 +97,7 @@
         "size": "12oz, 16oz",
         "dimension": "20mm",
         "packet": "500 pieces/carton",
-        "image":"agastya/product/sspoon1.jpg"
+        "image":["agastya/product/sspoon1.jpg"]
     },
     {
         "id": "201",
@@ -107,7 +107,7 @@
         "size": "10inch x 6inch",
         "dimension": "25mm",
         "packet": "300 pieces/carton",
-        "image":"agastya/product/lsp1.jpg"
+        "image":["agastya/product/lsp1.jpg"]
     },
     {
         "id": "202",
@@ -117,7 +117,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image":"agastya/product/lrp1.jpg"
+        "image":["agastya/product/lrp1.jpg"]
     },
     {
         "id": "203",
@@ -127,7 +127,7 @@
         "size": "10inch x 6inch",
         "dimension": "25mm",
         "packet": "300 pieces/carton",
-        "image":"agastya/product/lop1.jpg"
+        "image":["agastya/product/lop1.jpg"]
     },
     {
         "id": "204",
@@ -137,7 +137,7 @@
         "size": "12oz, 16oz",
         "dimension": "20mm",
         "packet": "500 pieces/carton",
-        "image":"agastya/product/lpp1.jpg"
+        "image":["agastya/product/lpp1.jpg"]
     },
     {
         "id": "205",
@@ -147,7 +147,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image":"agastya/product/lb1.jpg"
+        "image":["agastya/product/lb1.jpg"]
     },
     {
         "id": "206",
@@ -157,7 +157,7 @@
         "size": "12oz, 16oz",
         "dimension": "20mm",
         "packet": "500 pieces/carton",
-        "image":"agastya/product/lcb1.jpg"
+        "image":["agastya/product/lcb1.jpg"]
     },
     {
         "id": "207",
@@ -167,6 +167,6 @@
         "size": "10inch x 6inch",
         "dimension": "25mm",
         "packet": "300 pieces/carton",
-        "image":"agastya/product/ls1.jpg"
+        "image":["agastya/product/ls1.jpg"]
     }
 ]
