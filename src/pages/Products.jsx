@@ -14,6 +14,7 @@ import { MdSevereCold } from "react-icons/md";
 import { FaLeaf } from "react-icons/fa6";
 import { IoFastFoodSharp } from "react-icons/io5";
 import { useParams } from 'react-router';
+import loader from '../images/loader/loader.gif';
 
 const Products = () => {
     const { subcategory } = useParams();
@@ -42,7 +43,14 @@ const Products = () => {
         fetchData();
     }, []);
 
-
+    if (isLoading) {
+        return (
+          <div className="flex justify-center items-center min-h-screen">
+            <img src={loader} className="h-[60px]" alt="loader"/>
+          </div>
+        );
+      }
+    
     return (
         <div className="my-8 md:my-16 mx-1">
                 {products.length>0 && products.map((pro, index) => {
