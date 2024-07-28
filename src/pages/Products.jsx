@@ -99,6 +99,7 @@ const Products = () => {
                                         <div><span className='font-bold'>Size : </span><span>{pro.size}</span></div>
                                         <div><span className='font-bold'>Dimension : </span><span>{pro.dimension}</span></div>
                                         <div><span className='font-bold'>Packet : </span><span>{pro.packet}</span></div>
+                                        <div><span className='font-bold'>Cartoon : </span><span>{pro.cartoon}</span></div>
                                     </div>
                                 </div>
                                 <div className="mt-6 flex flex-col sm:flex-row">

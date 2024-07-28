@@ -85,9 +85,9 @@ const ProductsCategory = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
               {filteredProducts.map(product => (
                 <NavLink to={`/products/${product['sub-cat']}`}>
-                  <div key={product.id} className="relative bg-cover group rounded-3xl bg-center overflow-hidden mx-auto cursor-pointer filtered-product">
+                  <div key={product.id} className="relative h-full bg-cover group rounded-3xl bg-center overflow-hidden mx-auto cursor-pointer filtered-product">
                     <img
-                      src={product.image}
+                      src={product.image[0]}
                       alt={product.name}
                       className="h-full w-full object-cover"
                     />
