@@ -9,7 +9,7 @@
         "packet": "1000 pices/cartoon",
         "cartoon": "1000 pices/cartoon",
         "image": [
-            "agastya/product/srp1.jpg"
+            "/agastya/product/srp1.jpg"
         ]
     },
     {
@@ -22,8 +22,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/round1.jpg",
-            "agastya/product/sugarcane/round2.jpg"
+            "/agastya/product/sugarcane/round1.jpg",
+            "/agastya/product/sugarcane/round2.jpg"
         ]
     },
     {
@@ -36,8 +36,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/round21.jpg",
-            "agastya/product/sugarcane/round22.jpg"
+            "/agastya/product/sugarcane/round21.jpg",
+            "/agastya/product/sugarcane/round22.jpg"
         ]
     },
     {
@@ -50,7 +50,7 @@
         "packet": "1000 pieces/carton",
         "cartoon": "1000 pieces/carton",
         "image": [
-            "agastya/product/ssp1.jpg"
+            "/agastya/product/ssp1.jpg"
         ]
     },
     {
@@ -63,8 +63,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/squre1.jpg",
-            "agastya/product/sugarcane/squre2.jpg"
+            "/agastya/product/sugarcane/squre1.jpg",
+            "/agastya/product/sugarcane/squre2.jpg"
         ]
     },
     {
@@ -77,8 +77,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/squre21.jpg",
-            "agastya/product/sugarcane/squre21.jpg"
+            "/agastya/product/sugarcane/squre21.jpg",
+            "/agastya/product/sugarcane/squre21.jpg"
         ]
     },
     {
@@ -91,7 +91,7 @@
         "packet": "1000 pieces/carton",
         "cartoon": "1000 pieces/carton",
         "image": [
-            "agastya/product/spp1.jpg"
+            "/agastya/product/spp1.jpg"
         ]
     },
     {
@@ -104,8 +104,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/3cpround1.jpg",
-            "agastya/product/sugarcane/3cpround2.jpg"
+            "/agastya/product/sugarcane/3cpround1.jpg",
+            "/agastya/product/sugarcane/3cpround2.jpg"
         ]
     },
     {
@@ -118,8 +118,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/4cpround1.jpg",
-            "agastya/product/sugarcane/4cpround1.jpg"
+            "/agastya/product/sugarcane/4cpround1.jpg",
+            "/agastya/product/sugarcane/4cpround1.jpg"
         ]
     },
     {
@@ -132,8 +132,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/4cpleaf1.jpg",
-            "agastya/product/sugarcane/4cpleaf2.jpg"
+            "/agastya/product/sugarcane/4cpleaf1.jpg",
+            "/agastya/product/sugarcane/4cpleaf2.jpg"
         ]
     },
     {
@@ -146,8 +146,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/3cp1.jpg",
-            "agastya/product/sugarcane/3cp1.jpg"
+            "/agastya/product/sugarcane/3cp1.jpg",
+            "/agastya/product/sugarcane/3cp1.jpg"
         ]
     },
     {
@@ -160,8 +160,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/4cp1.jpg",
-            "agastya/product/sugarcane/4cp1.jpg"
+            "/agastya/product/sugarcane/4cp1.jpg",
+            "/agastya/product/sugarcane/4cp1.jpg"
         ]
     },
     {
@@ -174,8 +174,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/5cp1.jpg",
-            "agastya/product/sugarcane/5cp2.jpg"
+            "/agastya/product/sugarcane/5cp1.jpg",
+            "/agastya/product/sugarcane/5cp2.jpg"
         ]
     },
     {
@@ -188,8 +188,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/6cp1.jpg",
-            "agastya/product/sugarcane/6cp1.jpg"
+            "/agastya/product/sugarcane/6cp1.jpg",
+            "/agastya/product/sugarcane/6cp1.jpg"
         ]
     },
     {
@@ -202,7 +202,7 @@
         "packet": "1000 pieces/carton",
         "cartoon": "1000 pieces/carton",
         "image": [
-            "agastya/product/sop1.jpg"
+            "/agastya/product/sop1.jpg"
         ]
     },
     {
@@ -215,8 +215,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/hexagon1.jpg",
-            "agastya/product/sugarcane/hexagon2.jpg"
+            "/agastya/product/sugarcane/hexagon1.jpg",
+            "/agastya/product/sugarcane/hexagon2.jpg"
         ]
     },
     {
@@ -229,8 +229,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/leaf.jpg",
-            "agastya/product/sugarcane/leaf.jpg"
+            "/agastya/product/sugarcane/leaf.jpg",
+            "/agastya/product/sugarcane/leaf.jpg"
         ]
     },
     {
@@ -243,7 +243,7 @@
         "packet": "500 pieces/carton",
         "cartoon": "500 pieces/carton",
         "image": [
-            "agastya/product/sb1.jpg"
+            "/agastya/product/sb1.jpg"
         ]
     },
     {
@@ -256,8 +256,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/cup1.jpg",
-            "agastya/product/sugarcane/cup2.jpg"
+            "/agastya/product/sugarcane/cup1.jpg",
+            "/agastya/product/sugarcane/cup2.jpg"
         ]
     },
     {
@@ -270,8 +270,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/cupbig1.jpg",
-            "agastya/product/sugarcane/cupbig2.jpg"
+            "/agastya/product/sugarcane/cupbig1.jpg",
+            "/agastya/product/sugarcane/cupbig2.jpg"
         ]
     },
     {
@@ -284,8 +284,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/deepbowl1.jpg",
-            "agastya/product/sugarcane/deepbowl2.jpg"
+            "/agastya/product/sugarcane/deepbowl1.jpg",
+            "/agastya/product/sugarcane/deepbowl2.jpg"
         ]
     },
     {
@@ -298,8 +298,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/large1.jpg",
-            "agastya/product/sugarcane/large2.jpg"
+            "/agastya/product/sugarcane/large1.jpg",
+            "/agastya/product/sugarcane/large2.jpg"
         ]
     },
     {
@@ -312,7 +312,7 @@
         "packet": "300 pieces/carton",
         "cartoon": "300 pieces/carton",
         "image": [
-            "agastya/product/st1.jpg"
+            "/agastya/product/st1.jpg"
         ]
     },
     {
@@ -325,8 +325,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/glasstray1.jpg",
-            "agastya/product/sugarcane/glasstray2.jpg"
+            "/agastya/product/sugarcane/glasstray1.jpg",
+            "/agastya/product/sugarcane/glasstray2.jpg"
         ]
     },
     {
@@ -339,7 +339,7 @@
         "packet": "1000 pieces/carton",
         "cartoon": "1000 pieces/carton",
         "image": [
-            "agastya/product/scb1.jpg"
+            "/agastya/product/scb1.jpg"
         ]
     },
     {
@@ -352,8 +352,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/box1.jpg",
-            "agastya/product/sugarcane/box2.jpg"
+            "/agastya/product/sugarcane/box1.jpg",
+            "/agastya/product/sugarcane/box2.jpg"
         ]
     },
     {
@@ -366,8 +366,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/boxregular1.jpg",
-            "agastya/product/sugarcane/boxregular2.jpg"
+            "/agastya/product/sugarcane/boxregular1.jpg",
+            "/agastya/product/sugarcane/boxregular2.jpg"
         ]
     },
     {
@@ -380,8 +380,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "agastya/product/sugarcane/boxmedium1.jpg",
-            "agastya/product/sugarcane/boxmedium1.jpg"
+            "/agastya/product/sugarcane/boxmedium1.jpg",
+            "/agastya/product/sugarcane/boxmedium1.jpg"
         ]
     }
 ,
@@ -394,7 +394,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/boxplate1.jpg", "agastya/product/sugarcane/boxplate1.jpg"]
+        "image": ["/agastya/product/sugarcane/boxplate1.jpg", "/agastya/product/sugarcane/boxplate1.jpg"]
     },
     {
         "id": "175",
@@ -405,7 +405,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/box2part1.jpg", "agastya/product/sugarcane/box2part2.jpg"]
+        "image": ["/agastya/product/sugarcane/box2part1.jpg", "/agastya/product/sugarcane/box2part2.jpg"]
     },
     {
         "id": "176",
@@ -416,7 +416,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/box3part1.jpg", "agastya/product/sugarcane/box3part2.jpg"]
+        "image": ["/agastya/product/sugarcane/box3part1.jpg", "/agastya/product/sugarcane/box3part2.jpg"]
     },
     {
         "id": "177",
@@ -427,7 +427,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/box3cp1.jpg", "agastya/product/sugarcane/box3cp2.jpg"]
+        "image": ["/agastya/product/sugarcane/box3cp1.jpg", "/agastya/product/sugarcane/box3cp2.jpg"]
     },
     {
         "id": "108",
@@ -437,7 +437,7 @@
         "size": "12oz, 16oz",
         "dimension": "20mm",
         "packet": "500 pieces/carton",
-        "image": ["agastya/product/sstr1.jpg"]
+        "image": ["/agastya/product/sstr1.jpg"]
     },
     {
         "id": "181",
@@ -448,7 +448,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/straw1.jpg", "agastya/product/sugarcane/straw2.jpg"]
+        "image": ["/agastya/product/sugarcane/straw1.jpg", "/agastya/product/sugarcane/straw2.jpg"]
     },
     {
         "id": "109",
@@ -458,7 +458,7 @@
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
-        "image": ["agastya/product/sg1.jpg"]
+        "image": ["/agastya/product/sg1.jpg"]
     },
     {
         "id": "191",
@@ -469,7 +469,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/glass1.jpg", "agastya/product/sugarcane/glass2.jpg"]
+        "image": ["/agastya/product/sugarcane/glass1.jpg", "/agastya/product/sugarcane/glass2.jpg"]
     },
     {
         "id": "192",
@@ -480,7 +480,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/takeglass1.jpg", "agastya/product/sugarcane/takeglass2.jpg"]
+        "image": ["/agastya/product/sugarcane/takeglass1.jpg", "/agastya/product/sugarcane/takeglass2.jpg"]
     },
     {
         "id": "110",
@@ -490,7 +490,7 @@
         "size": "12oz, 16oz",
         "dimension": "20mm",
         "packet": "500 pieces/carton",
-        "image": ["agastya/product/sspoon1.jpg"]
+        "image": ["/agastya/product/sspoon1.jpg"]
     },
     {
         "id": "1101",
@@ -501,7 +501,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/spoon1.jpg", "agastya/product/sugarcane/spoon1.jpg"]
+        "image": ["/agastya/product/sugarcane/spoon1.jpg", "/agastya/product/sugarcane/spoon1.jpg"]
     },
     {
         "id": "1102",
@@ -512,7 +512,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/soupspoon1.jpg", "agastya/product/sugarcane/soupspoon1.jpg"]
+        "image": ["/agastya/product/sugarcane/soupspoon1.jpg", "/agastya/product/sugarcane/soupspoon1.jpg"]
     },
     {
         "id": "1103",
@@ -523,7 +523,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/sugarcane/combosp1.jpg", "agastya/product/sugarcane/combosp2.jpg"]
+        "image": ["/agastya/product/sugarcane/combosp1.jpg", "/agastya/product/sugarcane/combosp2.jpg"]
     },
     {
         "id": "201",
@@ -533,7 +533,7 @@
         "size": "10inch x 6inch",
         "dimension": "25mm",
         "packet": "300 pieces/carton",
-        "image": ["agastya/product/lsp1.jpg"]
+        "image": ["/agastya/product/lsp1.jpg"]
     },
     {
         "id": "211",
@@ -544,7 +544,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafsqure11.jpg", "agastya/product/leaf/leafsqure12.jpg"]
+        "image": ["/agastya/product/leaf/leafsqure11.jpg", "/agastya/product/leaf/leafsqure12.jpg"]
     },
     {
         "id": "212",
@@ -555,7 +555,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafsqure21.jpg", "agastya/product/leaf/leafsqure22.jpg"]
+        "image": ["/agastya/product/leaf/leafsqure21.jpg", "/agastya/product/leaf/leafsqure22.jpg"]
     }
 ,
     {
@@ -567,7 +567,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/lrp1.jpg"]
+        "image": ["/agastya/product/lrp1.jpg"]
     },
     {
         "id": "221",
@@ -578,7 +578,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafround11.jpg", "agastya/product/leaf/leafround12.jpg"]
+        "image": ["/agastya/product/leaf/leafround11.jpg", "/agastya/product/leaf/leafround12.jpg"]
     },
     {
         "id": "222",
@@ -589,7 +589,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafround21.jpg", "agastya/product/leaf/leafround22.jpg"]
+        "image": ["/agastya/product/leaf/leafround21.jpg", "/agastya/product/leaf/leafround22.jpg"]
     },
     {
         "id": "203",
@@ -600,7 +600,7 @@
         "dimension": "25mm",
         "packet": "300 pieces/carton",
         "cartoon": "300 pieces",
-        "image": ["agastya/product/lop1.jpg"]
+        "image": ["/agastya/product/lop1.jpg"]
     },
     {
         "id": "231",
@@ -611,7 +611,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafheart1.jpg", "agastya/product/leaf/leafheart2.jpg"]
+        "image": ["/agastya/product/leaf/leafheart1.jpg", "/agastya/product/leaf/leafheart2.jpg"]
     },
     {
         "id": "232",
@@ -622,7 +622,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leaftriangle1.jpg", "agastya/product/leaf/leaftriangle2.jpg"]
+        "image": ["/agastya/product/leaf/leaftriangle1.jpg", "/agastya/product/leaf/leaftriangle2.jpg"]
     },
     {
         "id": "233",
@@ -633,7 +633,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafbbq1.jpg", "agastya/product/leaf/leafbbq2.jpg"]
+        "image": ["/agastya/product/leaf/leafbbq1.jpg", "/agastya/product/leaf/leafbbq2.jpg"]
     },
     {
         "id": "234",
@@ -644,7 +644,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leaffancy1.jpg", "agastya/product/leaf/leaffancy2.jpg"]
+        "image": ["/agastya/product/leaf/leaffancy1.jpg", "/agastya/product/leaf/leaffancy2.jpg"]
     },
     {
         "id": "235",
@@ -655,7 +655,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafrectengle1.jpg", "agastya/product/leaf/leafrectangle2.jpg"]
+        "image": ["/agastya/product/leaf/leafrectengle1.jpg", "/agastya/product/leaf/leafrectangle2.jpg"]
     },
     {
         "id": "236",
@@ -666,7 +666,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafoval1.jpg", "agastya/product/leaf/leafoval2.jpg"]
+        "image": ["/agastya/product/leaf/leafoval1.jpg", "/agastya/product/leaf/leafoval2.jpg"]
     },
     {
         "id": "237",
@@ -677,7 +677,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafhexagon1.jpg", "agastya/product/leaf/leafhexagon2.jpg"]
+        "image": ["/agastya/product/leaf/leafhexagon1.jpg", "/agastya/product/leaf/leafhexagon2.jpg"]
     },
     {
         "id": "204",
@@ -688,7 +688,7 @@
         "dimension": "20mm",
         "packet": "500 pieces/carton",
         "cartoon": "500 pieces",
-        "image": ["agastya/product/lpp1.jpg"]
+        "image": ["/agastya/product/lpp1.jpg"]
     },
     {
         "id": "241",
@@ -699,7 +699,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leaf2part1.jpg", "agastya/product/leaf/leaf2part1.jpg"]
+        "image": ["/agastya/product/leaf/leaf2part1.jpg", "/agastya/product/leaf/leaf2part1.jpg"]
     },
     {
         "id": "242",
@@ -710,7 +710,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leaf3part1.jpg", "agastya/product/leaf/leaf3part2.jpg"]
+        "image": ["/agastya/product/leaf/leaf3part1.jpg", "/agastya/product/leaf/leaf3part2.jpg"]
     }
     ,
     
@@ -723,7 +723,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leaf4part1.jpg", "agastya/product/leaf/leaf4part2.jpg"]
+        "image": ["/agastya/product/leaf/leaf4part1.jpg", "/agastya/product/leaf/leaf4part2.jpg"]
     },
     {
         "id": "244",
@@ -734,7 +734,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafracpart1.jpg", "agastya/product/leaf/leafracpart1.jpg"]
+        "image": ["/agastya/product/leaf/leafracpart1.jpg", "/agastya/product/leaf/leafracpart1.jpg"]
     },
     {
         "id": "245",
@@ -745,7 +745,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafsqurpart1.jpg", "agastya/product/leaf/leafsqurpart1.jpg"]
+        "image": ["/agastya/product/leaf/leafsqurpart1.jpg", "/agastya/product/leaf/leafsqurpart1.jpg"]
     },
     {
         "id": "205",
@@ -756,7 +756,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces/carton",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/lb1.jpg"]
+        "image": ["/agastya/product/lb1.jpg"]
     },
     {
         "id": "251",
@@ -767,7 +767,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafdeep1.jpg", "agastya/product/leaf/leafdeep2.jpg"]
+        "image": ["/agastya/product/leaf/leafdeep1.jpg", "/agastya/product/leaf/leafdeep2.jpg"]
     },
     {
         "id": "252",
@@ -778,7 +778,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafdeeps1.jpg", "agastya/product/leaf/leafdeeps2.jpg"]
+        "image": ["/agastya/product/leaf/leafdeeps1.jpg", "/agastya/product/leaf/leafdeeps2.jpg"]
     },
     {
         "id": "253",
@@ -789,7 +789,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafdeepsqure1.jpg", "agastya/product/leaf/leafdeepsqure2.jpg"]
+        "image": ["/agastya/product/leaf/leafdeepsqure1.jpg", "/agastya/product/leaf/leafdeepsqure2.jpg"]
     },
     {
         "id": "206",
@@ -800,7 +800,7 @@
         "dimension": "20mm",
         "packet": "500 pieces/carton",
         "cartoon": "500 pieces",
-        "image": ["agastya/product/lcb1.jpg"]
+        "image": ["/agastya/product/lcb1.jpg"]
     },
     {
         "id": "261",
@@ -811,7 +811,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/box1.jpg", "agastya/product/leaf/box1.jpg"]
+        "image": ["/agastya/product/leaf/box1.jpg", "/agastya/product/leaf/box1.jpg"]
     },
     {
         "id": "207",
@@ -822,7 +822,7 @@
         "dimension": "25mm",
         "packet": "300 pieces/carton",
         "cartoon": "300 pieces",
-        "image": ["agastya/product/ls1.jpg"]
+        "image": ["/agastya/product/ls1.jpg"]
     },
     {
         "id": "271",
@@ -833,7 +833,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafspoon1.jpg", "agastya/product/leaf/leafspoon2.jpg"]
+        "image": ["/agastya/product/leaf/leafspoon1.jpg", "/agastya/product/leaf/leafspoon2.jpg"]
     },
     {
         "id": "272",
@@ -844,7 +844,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["agastya/product/leaf/leafspoonice1.jpg", "agastya/product/leaf/leafspoonice1.jpg"]
+        "image": ["/agastya/product/leaf/leafspoonice1.jpg", "/agastya/product/leaf/leafspoonice1.jpg"]
     }
     ,
     {
@@ -856,6 +856,6 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon":"1000 pieces",
-        "image":["agastya/product/leaf/leafsoups1.jpg","agastya/product/leaf/leafsoups2.jpg"]
+        "image":["/agastya/product/leaf/leafsoups1.jpg","/agastya/product/leaf/leafsoups2.jpg"]
     }
 ]
