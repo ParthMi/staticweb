@@ -17,7 +17,7 @@ import { useParams } from 'react-router';
 import loader from '../images/loader/loader.gif';
 
 const Products = () => {
-    const { subcategory } = useParams();
+    const { category, subcategory } = useParams();
     const [products, setProducts] = useState([]);
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
@@ -31,7 +31,7 @@ const Products = () => {
                 }
                 const data = await response.json();
 
-                const filteredProducts = data.filter((d) => { if (d['sub-cat'] === subcategory) { return d } });
+                const filteredProducts = data.filter((d) => { if ((d['sub-cat'] === subcategory) && d.category === category) { return d } });
                 setProducts(filteredProducts);
                 setIsLoading(false);
             } catch (error) {
