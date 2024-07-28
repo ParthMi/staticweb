@@ -7,8 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
-    />
+      content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -39,7 +38,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
     <script type="module">
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
@@ -63,5 +63,19 @@
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
     </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4T4FNNLHG1">
+  </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4T4FNNLHG1')
+  </script>
+    <script>
+      // Required by some npm packages
+      window.process = { browser: true, env: { ENVIRONMENT: 'BROWSER' } };
+  </script>
   </body>
 </html>
