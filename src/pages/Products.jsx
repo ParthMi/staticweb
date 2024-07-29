@@ -13,12 +13,27 @@ import { MdSevereCold } from "react-icons/md";
 import { FaLeaf } from "react-icons/fa6";
 import { useParams } from 'react-router';
 import loader from '../images/loader/loader.gif';
+import ContactModal from './ContactModal';
 
 const Products = () => {
     const { category, subcategory } = useParams();
     const [products, setProducts] = useState([]);
     const [thumbsSwipers, setThumbsSwipers] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [selected,setSelected]=useState();
+    const [isOpen,setIsOpen]=useState(false);
+
+    const handleOpenEnquireModal=(name,category)=>{
+        setSelected({
+            name:name,
+            category:category
+        })
+        setIsOpen(true)
+    }
+
+    const onClose=()=>{
+        setIsOpen(false)
+    }
 
     useEffect(() => {
         const fetchData = async () => {
@@ -98,6 +113,7 @@ const Products = () => {
                                 </Swiper>
                             </div>
                         </div>
+                        
                         <div className="relative p-8">
                             <div className="">
                                 <h2 className="mb-2 text-2xl font-black">{pro.name}</h2>
@@ -114,7 +130,7 @@ const Products = () => {
                                 </div>
                             </div>
                             <div className="mt-6 flex flex-col sm:flex-row">
-                                <button className="mr-2 mb-4 flex cursor-pointer items-center justify-center rounded-md bg-emerald-400 py-2 px-8 text-center text-white hover:bg-emerald-500">
+                                <button onClick={e=>handleOpenEnquireModal(pro.name,pro.category)} className="mr-2 mb-4 flex cursor-pointer items-center justify-center rounded-md bg-emerald-400 py-2 px-8 text-center text-white hover:bg-emerald-500">
                                     ENQUIRE NOW
                                 </button>
                             </div>
@@ -129,6 +145,7 @@ const Products = () => {
                     </div>
                 </div>
             ))}
+            <ContactModal isOpen={isOpen} onClose={onClose}/>
         </div>
     );
 }
