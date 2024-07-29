@@ -60,9 +60,9 @@
 }
 
 @media (max-width: 768px) {
-    .main-swiper {
+    /* .main-swiper {
         height: 300px;
-    }
+    } */
 
     .thumbs-swiper .swiper-slide {
         width: 33.33%;
@@ -70,9 +70,9 @@
 }
 
 @media (max-width: 480px) {
-    .main-swiper {
+    /* .main-swiper {
         height: 200px;
-    }
+    } */
 
     .thumbs-swiper .swiper-slide {
         width: 50%;
