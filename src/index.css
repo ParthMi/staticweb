@@ -323,6 +323,7 @@ body {
 .scroll-to-top.show {
   opacity: 1;
   visibility: visible;
+  z-index: 1500;
 }
 
 .scroll-to-top.hide {

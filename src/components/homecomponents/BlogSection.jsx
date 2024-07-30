@@ -43,7 +43,7 @@ const BlogSection = () => {
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogs.map((blog) => (
-          <span key={blog.id} className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2">
+          <NavLink to={`/blog/${encodeURIComponent(blog.title)}`} key={blog.id} className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-2">
             <div className="aspect-w-16 aspect-h-11">
               <img className="w-full object-cover rounded-xl" src={blog.image} alt="" />
             </div>
@@ -53,7 +53,7 @@ const BlogSection = () => {
                 {blog.description}
               </p>
             </div>
-          </span>
+          </NavLink>
         ))}
       </div>
 

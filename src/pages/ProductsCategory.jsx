@@ -55,8 +55,8 @@ const ProductsCategory = () => {
     : products.filter(product => product.category === active);
   const toTitleCase = (str) => {
     return str
-      .replace(/-/g, ' ')          // Replace hyphens with spaces
-      .replace(/\b\w/g, (char) => char.toUpperCase());  // Capitalize the first letter of each word
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, (char) => char.toUpperCase());
   };
 
   return (
