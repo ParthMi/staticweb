@@ -32,11 +32,8 @@ const Products = () => {
     const filter = params.get('filter');
     const productId = params.get('productId');
 
-    const handleOpenEnquireModal = (name, category) => {
-        setSelected({
-            name: name,
-            category: category
-        })
+    const handleOpenEnquireModal = (product) => {
+        setSelected(product)
         setIsOpen(true)
     }
 
@@ -150,7 +147,7 @@ const Products = () => {
                                     </div>
                                 </div>
                                 <div className="mt-6 flex flex-col sm:flex-row">
-                                    <button onClick={e => handleOpenEnquireModal(pro.name, pro.category)} className="mr-2 mb-4 flex cursor-pointer items-center justify-center rounded-md bg-emerald-400 py-2 px-8 text-center text-white hover:bg-emerald-500">
+                                    <button onClick={e => handleOpenEnquireModal(pro)} className="mr-2 mb-4 flex cursor-pointer items-center justify-center rounded-md bg-emerald-400 py-2 px-8 text-center text-white hover:bg-emerald-500">
                                         ENQUIRE NOW
                                     </button>
                                 </div>
@@ -165,7 +162,7 @@ const Products = () => {
                         </div>
                     </div>
                 ))}
-                <ContactModal isOpen={isOpen} onClose={onClose} />
+                <ContactModal isOpen={isOpen} onClose={onClose} selected={selected}/>
             </div>
         </>);
 }
