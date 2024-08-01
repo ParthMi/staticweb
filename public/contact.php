@@ -40,13 +40,7 @@ if (isset($input['product']) && is_array($input['product'])) {
     $html .= "Packet: " . htmlspecialchars($product['packet']) . "<br>";
     $html .= "Cartoon: " . htmlspecialchars($product['cartoon']) . "<br>";
 
-    // Display product images if available
-    if (isset($product['image']) && is_array($product['image'])) {
-        $html .= "Images:<br>";
-        foreach ($product['image'] as $img) {
-            $html .= "<img src='" . htmlspecialchars($img) . "' alt='Product Image' style='width:200px;'><br>";
-        }
-    }
+    
 }
 
 $mail = new PHPMailer(true);

@@ -11,10 +11,12 @@ import ErrorPage from './pages/error'
 import Products from './pages/Products';
 import ScrollToTop from '../src/components/common/ScrollToTop'
 import BlogInfo from './pages/BlogInfo';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <BrowserRouter>
+      <ToastContainer />
       <ScrollToTop />
       <MainLayout>
         <Routes>

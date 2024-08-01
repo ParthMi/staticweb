@@ -50,7 +50,7 @@ const ContactModal = ({ isOpen, onClose, selected }) => {
 
             const result = await response.json();
 
-            if (result.success === 1) {
+            if (result.status === 1) {
                 toast.success("Thank you for contacting us. We will get back to you soon.");
                 setFormData({ name: "", email: "", phone: "", details: "", subject: "" });
             } else {

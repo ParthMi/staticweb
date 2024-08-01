@@ -30,12 +30,12 @@ const Contact = () => {
 
       const result = await response.json();
 
-      if (result.success===1) {
+      if (result.status === 1) {
         toast.success("Thank you for contacting us. We will get back to you soon.");
         setFormData({ name: "", email: "", phone: "", details: "" });
-      } else {
-        toast.error("Failed to send the message.");
-      }
+    } else {
+        toast.error(result.message || "Failed to send the message.");
+    }
     } catch (error) {
       toast.error("An error occurred. Please try again later.");
     } finally {
@@ -200,7 +200,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className={`w-full flex justify-center rounded border !border-blue-500 !bg-blue-500 p-3 text-white transition hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed ${loading ? "bg-blue-400" : ""
+                      className={`w-full flex justify-center rounded border !border-emerald-400 !bg-emerald-400 p-3 text-white transition hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed ${loading ? "bg-blue-400" : ""
                         }`}
                       disabled={loading}
                     >
@@ -233,7 +233,7 @@ const Contact = () => {
                         fillRule="evenodd"
                         clipRule="evenodd"
                         d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
-                        fill="#3056D3"
+                        fill="#34d399"
                       />
                     </svg>
                   </span>
