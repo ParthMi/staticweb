@@ -12,6 +12,7 @@ import Products from './pages/Products';
 import ScrollToTop from '../src/components/common/ScrollToTop'
 import BlogInfo from './pages/BlogInfo';
 import { ToastContainer } from 'react-toastify';
+import Thank from './pages/Thank';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/blog/:title" element={<BlogInfo />} />
           <Route path="/contactus" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
+          <Route path="/thank" element={<Thank/>}/>
         </Routes>
       </MainLayout>
     </BrowserRouter>

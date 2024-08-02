@@ -43,7 +43,7 @@ const AboutSection = () => {
               Why Choose Us
             </span>
             <h2
-              className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]"
+              className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]"
             >
               Make your customers happy by giving services.
             </h2>
