@@ -20,58 +20,60 @@ const ProductsSection = () => {
         </a>
         </div>
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/leaf-based/spoon">
+        <a href="/products/sugarcane/round-plate">
           <img className="object-cover rounded-lg" src="agastya/homecatlog/pic7.jpg" alt="" />
         </a>
         </div>
       </div>
       <div className="grid gap-4">
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/sugarcane/partision-plate">
+        <a href="/products/leaf-based/round-plate">
           <img className="object-cover rounded-lg" src="agastya/homecatlog/pic10.jpg" alt="" />
         </a>
         </div>
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/leaf-based/other-plate">
+        <a href="/products/sugarcane/partision-plate">
         <img className="object-cover rounded-lg" src="agastya/homecatlog/pic2.jpg" alt="" />
         </a>
         </div>
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/leaf-based/squre-plate">
+        <a href="/products/sugarcane/squre-plate">
         <img className="object-cover rounded-lg" src="agastya/homecatlog/pic6.jpg" alt="" />
         </a>
         </div>
       </div>
       <div className="grid gap-4">
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/leaf-based/other-plate">
+        <a href="/products/sugarcane/Container-box">
         <img className="object-cover rounded-lg" src="agastya/homecatlog/pic4.jpg" alt="" />
         </a>
         </div>
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/sugarcane/spoon">
+        <a href="/products/leaf-based/spoon">
         <img className="object-cover rounded-lg" src="agastya/homecatlog/pic5.jpg" alt="" />
         </a> 
         </div>
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/sugarcane/strow">
+        <a href="/products/sugarcane/Container-box">
         <img className="object-cover rounded-lg" src="agastya/homecatlog/pic3.jpg" alt="" />
         </a>
         </div>
       </div>
       <div className="grid gap-4">
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/sugarcane/bowl">
+        <a href="/products/leaf-based/squre-plate">
         <img className="object-cover rounded-lg" src="agastya/homecatlog/pic12.jpg" alt="" />
         </a>
         </div>
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/sugarcane/round-plate">
-        </a> <img className="object-cover rounded-lg" src="agastya/homecatlog/pic8.jpg" alt="" />
+        <a href="/products/sugarcane/partision-plate">
+        <img className="object-cover rounded-lg" src="agastya/homecatlog/pic8.jpg" alt="" />
+        </a> 
         </div>
         <div className="aspect-w-1 aspect-h-1  hover:opacity-85">
-        <a href="/products/leaf-based/bowl">
-        </a><img className="object-cover rounded-lg" src="agastya/homecatlog/pic9.jpg" alt="" />
+        <a href="/products/leaf-based/squre-plate">
+        <img className="object-cover rounded-lg" src="agastya/homecatlog/pic9.jpg" alt="" />
+        </a>
         </div>
       </div>
     </div>
