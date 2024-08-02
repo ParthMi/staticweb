@@ -29,8 +29,8 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:title" element={<BlogInfo />} />
           <Route path="/contactus" element={<Contact />} />
-          <Route path="*" element={<ErrorPage />} />
           <Route path="/thank" element={<Thank/>}/>
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </MainLayout>
     </BrowserRouter>

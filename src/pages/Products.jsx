@@ -86,11 +86,11 @@ const Products = () => {
 
       return (
         <>
-            <div  className='!pt-8 flex items-center container mx-auto gap-1'>
+            <div  className='!pt-8 ml-2 md:ml-0 flex items-center container mx-auto gap-1'>
                 <span onClick={handleBackClick} className='cursor-pointer'><IoMdArrowRoundBack size={23}/></span>
                 <span className='text-lg font-semibold cursor-pointer' onClick={handleBackClick}>Back</span>
             </div>
-            <div className="!mt-2 my-10 md:my-16 mx-8">
+            <div className="!mt-2 my-10 md:my-16 mx-2 md:mx-8">
                 {products.length > 0 && products.map((pro, index) => (
                     <div key={index} className="md:mx-auto bg-[#e5e7eb] my-4 container rounded-[15px] border border-gray-100 text-gray-600 shadow-md">
                         <div className="relative p-4 md:p-8 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-3 justify-center">

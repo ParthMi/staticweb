@@ -31,7 +31,8 @@ const Contact = () => {
       const result = await response.json();
 
       if (result.status === 1) {
-        toast.success("Thank you for contacting us. We will get back to you soon.");
+        // toast.success("Thank you for contacting us. We will get back to you soon.");
+        window.location.href = '/thank';
         setFormData({ name: "", email: "", phone: "", details: "" });
     } else {
         toast.error(result.message || "Failed to send the message.");

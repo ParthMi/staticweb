@@ -52,6 +52,7 @@ const ContactModal = ({ isOpen, onClose, selected }) => {
 
             if (result.status === 1) {
                 toast.success("Thank you for contacting us. We will get back to you soon.");
+                onClose();
                 setFormData({ name: "", email: "", phone: "", details: "", subject: "" });
             } else {
                 toast.error("Failed to send the message.");
