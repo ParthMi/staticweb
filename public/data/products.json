@@ -1,17 +1,5 @@
 [
-    {
-        "id": "101",
-        "name": "Round Plate",
-        "category": "sugarcane",
-        "sub-cat": "round-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pices/cartoon",
-        "cartoon": "1000 pices/cartoon",
-        "image": [
-            "/agastya/product/srp1.jpg"
-        ]
-    },
+    
     {
         "id": "111",
         "name": "Round Plate",
@@ -21,7 +9,7 @@
         "dimension": "16mm,20mm.22mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": [
+        "image": ["/agastya/product/srp1.jpg",
             "/agastya/product/sugarcane/round1.jpg",
             "/agastya/product/sugarcane/round2.jpg"
         ]
@@ -41,19 +29,6 @@
         ]
     },
     {
-        "id": "102",
-        "name": "Squre plate",
-        "category": "sugarcane",
-        "sub-cat": "squre-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces/carton",
-        "cartoon": "1000 pieces/carton",
-        "image": [
-            "/agastya/product/ssp1.jpg"
-        ]
-    },
-    {
         "id": "121",
         "name": "squre Plate",
         "category": "sugarcane",
@@ -62,7 +37,7 @@
         "dimension": "16mm,20mm.22mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": [
+        "image": ["/agastya/product/ssp1.jpg",
             "/agastya/product/sugarcane/squre1.jpg",
             "/agastya/product/sugarcane/squre2.jpg"
         ]
@@ -82,19 +57,6 @@
         ]
     },
     {
-        "id": "103",
-        "name": "Partision plate",
-        "category": "sugarcane",
-        "sub-cat": "partision-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces/carton",
-        "cartoon": "1000 pieces/carton",
-        "image": [
-            "/agastya/product/spp1.jpg"
-        ]
-    },
-    {
         "id": "131",
         "name": "3CP Round Plate",
         "category": "sugarcane",
@@ -104,6 +66,7 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
+            "/agastya/product/spp1.jpg",
             "/agastya/product/sugarcane/3cpround1.jpg",
             "/agastya/product/sugarcane/3cpround2.jpg"
         ]
@@ -193,19 +156,6 @@
         ]
     },
     {
-        "id": "104",
-        "name": "hexagone plate",
-        "category": "sugarcane",
-        "sub-cat": "other-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces/carton",
-        "cartoon": "1000 pieces/carton",
-        "image": [
-            "/agastya/product/sop1.jpg"
-        ]
-    },
-    {
         "id": "141",
         "name": "hexagone plate",
         "category": "sugarcane",
@@ -215,6 +165,7 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
+            "/agastya/product/sop1.jpg",
             "/agastya/product/sugarcane/hexagon1.jpg",
             "/agastya/product/sugarcane/hexagon2.jpg"
         ]
@@ -234,19 +185,6 @@
         ]
     },
     {
-        "id": "105",
-        "name": "Bowl",
-        "category": "sugarcane",
-        "sub-cat": "bowl",
-        "size": "12oz, 16oz",
-        "dimension": "20mm",
-        "packet": "500 pieces/carton",
-        "cartoon": "500 pieces/carton",
-        "image": [
-            "/agastya/product/sb1.jpg"
-        ]
-    },
-    {
         "id": "151",
         "name": "Cup",
         "category": "sugarcane",
@@ -256,6 +194,7 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
+            "/agastya/product/sb1.jpg",
             "/agastya/product/sugarcane/cup1.jpg",
             "/agastya/product/sugarcane/cup2.jpg"
         ]
@@ -303,19 +242,6 @@
         ]
     },
     {
-        "id": "106",
-        "name": "Tray",
-        "category": "sugarcane",
-        "sub-cat": "tray",
-        "size": "10inch x 6inch",
-        "dimension": "25mm",
-        "packet": "300 pieces/carton",
-        "cartoon": "300 pieces/carton",
-        "image": [
-            "/agastya/product/st1.jpg"
-        ]
-    },
-    {
         "id": "161",
         "name": "Glass Tray",
         "category": "sugarcane",
@@ -325,21 +251,9 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
+            "/agastya/product/st1.jpg",
             "/agastya/product/sugarcane/glasstray1.jpg",
             "/agastya/product/sugarcane/glasstray2.jpg"
-        ]
-    },
-    {
-        "id": "107",
-        "name": "Container box",
-        "category": "sugarcane",
-        "sub-cat": "Container-box",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces/carton",
-        "cartoon": "1000 pieces/carton",
-        "image": [
-            "/agastya/product/scb1.jpg"
         ]
     },
     {
@@ -352,6 +266,7 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
+            "/agastya/product/scb1.jpg",
             "/agastya/product/sugarcane/box1.jpg",
             "/agastya/product/sugarcane/box2.jpg"
         ]
@@ -430,16 +345,6 @@
         "image": ["/agastya/product/sugarcane/box3cp1.jpg", "/agastya/product/sugarcane/box3cp2.jpg"]
     },
     {
-        "id": "108",
-        "name": "Strow",
-        "category": "sugarcane",
-        "sub-cat": "strow",
-        "size": "12oz, 16oz",
-        "dimension": "20mm",
-        "packet": "500 pieces/carton",
-        "image": ["/agastya/product/sstr1.jpg"]
-    },
-    {
         "id": "181",
         "name": "Strow",
         "category": "sugarcane",
@@ -448,17 +353,9 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/straw1.jpg", "/agastya/product/sugarcane/straw2.jpg"]
-    },
-    {
-        "id": "109",
-        "name": "Glass",
-        "category": "sugarcane",
-        "sub-cat": "glass",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces/carton",
-        "image": ["/agastya/product/sg1.jpg"]
+        "image": ["/agastya/product/sstr1.jpg",
+        "/agastya/product/sugarcane/straw1.jpg",
+         "/agastya/product/sugarcane/straw2.jpg"]
     },
     {
         "id": "191",
@@ -469,7 +366,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/glass1.jpg", "/agastya/product/sugarcane/glass2.jpg"]
+        "image": ["/agastya/product/sg1.jpg","/agastya/product/sugarcane/glass1.jpg", "/agastya/product/sugarcane/glass2.jpg"]
     },
     {
         "id": "192",
@@ -483,16 +380,6 @@
         "image": ["/agastya/product/sugarcane/takeglass1.jpg", "/agastya/product/sugarcane/takeglass2.jpg"]
     },
     {
-        "id": "110",
-        "name": "Spoon",
-        "category": "sugarcane",
-        "sub-cat": "spoon",
-        "size": "12oz, 16oz",
-        "dimension": "20mm",
-        "packet": "500 pieces/carton",
-        "image": ["/agastya/product/sspoon1.jpg"]
-    },
-    {
         "id": "1101",
         "name": "Spoon",
         "category": "sugarcane",
@@ -501,7 +388,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/spoon1.jpg", "/agastya/product/sugarcane/spoon1.jpg"]
+        "image": ["/agastya/product/sspoon1.jpg","/agastya/product/sugarcane/spoon1.jpg", "/agastya/product/sugarcane/spoon1.jpg"]
     },
     {
         "id": "1102",
@@ -526,16 +413,6 @@
         "image": ["/agastya/product/sugarcane/combosp1.jpg", "/agastya/product/sugarcane/combosp2.jpg"]
     },
     {
-        "id": "201",
-        "name": "Squre plate",
-        "category": "leaf-based",
-        "sub-cat": "squre-plate",
-        "size": "10inch x 6inch",
-        "dimension": "25mm",
-        "packet": "300 pieces/carton",
-        "image": ["/agastya/product/lsp1.jpg"]
-    },
-    {
         "id": "211",
         "name": "Squre Plate",
         "category": "leaf-based",
@@ -544,7 +421,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/leaf/leafsqure11.jpg", "/agastya/product/leaf/leafsqure12.jpg"]
+        "image": ["/agastya/product/lsp1.jpg","/agastya/product/leaf/leafsqure11.jpg", "/agastya/product/leaf/leafsqure12.jpg"]
     },
     {
         "id": "212",
@@ -556,18 +433,6 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": ["/agastya/product/leaf/leafsqure21.jpg", "/agastya/product/leaf/leafsqure22.jpg"]
-    }
-,
-    {
-        "id": "202",
-        "name": "Round Plate",
-        "category": "leaf-based",
-        "sub-cat": "round-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces/carton",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/lrp1.jpg"]
     },
     {
         "id": "221",
@@ -578,7 +443,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/leaf/leafround11.jpg", "/agastya/product/leaf/leafround12.jpg"]
+        "image": ["/agastya/product/lrp1.jpg","/agastya/product/leaf/leafround11.jpg", "/agastya/product/leaf/leafround12.jpg"]
     },
     {
         "id": "222",
@@ -592,17 +457,6 @@
         "image": ["/agastya/product/leaf/leafround21.jpg", "/agastya/product/leaf/leafround22.jpg"]
     },
     {
-        "id": "203",
-        "name": "Heart Shape Plate",
-        "category": "leaf-based",
-        "sub-cat": "other-plate",
-        "size": "10inch x 6inch",
-        "dimension": "25mm",
-        "packet": "300 pieces/carton",
-        "cartoon": "300 pieces",
-        "image": ["/agastya/product/lop1.jpg"]
-    },
-    {
         "id": "231",
         "name": "Heart Shape Plate",
         "category": "leaf-based",
@@ -611,7 +465,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/leaf/leafheart1.jpg", "/agastya/product/leaf/leafheart2.jpg"]
+        "image": ["/agastya/product/lop1.jpg","/agastya/product/leaf/leafheart1.jpg", "/agastya/product/leaf/leafheart2.jpg"]
     },
     {
         "id": "232",
@@ -680,17 +534,6 @@
         "image": ["/agastya/product/leaf/leafhexagon1.jpg", "/agastya/product/leaf/leafhexagon2.jpg"]
     },
     {
-        "id": "204",
-        "name": "Partition Plate",
-        "category": "leaf-based",
-        "sub-cat": "partition-plate",
-        "size": "12oz, 16oz",
-        "dimension": "20mm",
-        "packet": "500 pieces/carton",
-        "cartoon": "500 pieces",
-        "image": ["/agastya/product/lpp1.jpg"]
-    },
-    {
         "id": "241",
         "name": "2CP Partition Plate",
         "category": "leaf-based",
@@ -699,7 +542,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/leaf/leaf2part1.jpg", "/agastya/product/leaf/leaf2part1.jpg"]
+        "image": ["/agastya/product/lpp1.jpg","/agastya/product/leaf/leaf2part1.jpg", "/agastya/product/leaf/leaf2part1.jpg"]
     },
     {
         "id": "242",
@@ -748,17 +591,6 @@
         "image": ["/agastya/product/leaf/leafsqurpart1.jpg", "/agastya/product/leaf/leafsqurpart1.jpg"]
     },
     {
-        "id": "205",
-        "name": "Bowl",
-        "category": "leaf-based",
-        "sub-cat": "bowl",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces/carton",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/lb1.jpg"]
-    },
-    {
         "id": "251",
         "name": "Bowl",
         "category": "leaf-based",
@@ -767,7 +599,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/leaf/leafdeep1.jpg", "/agastya/product/leaf/leafdeep2.jpg"]
+        "image": ["/agastya/product/lb1.jpg","/agastya/product/leaf/leafdeep1.jpg", "/agastya/product/leaf/leafdeep2.jpg"]
     },
     {
         "id": "252",
@@ -792,17 +624,6 @@
         "image": ["/agastya/product/leaf/leafdeepsqure1.jpg", "/agastya/product/leaf/leafdeepsqure2.jpg"]
     },
     {
-        "id": "206",
-        "name": "Container Box",
-        "category": "leaf-based",
-        "sub-cat": "container-box",
-        "size": "12oz, 16oz",
-        "dimension": "20mm",
-        "packet": "500 pieces/carton",
-        "cartoon": "500 pieces",
-        "image": ["/agastya/product/lcb1.jpg"]
-    },
-    {
         "id": "261",
         "name": "Container Box",
         "category": "leaf-based",
@@ -811,18 +632,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/leaf/box1.jpg", "/agastya/product/leaf/box1.jpg"]
-    },
-    {
-        "id": "207",
-        "name": "Spoon",
-        "category": "leaf-based",
-        "sub-cat": "spoon",
-        "size": "10inch x 6inch",
-        "dimension": "25mm",
-        "packet": "300 pieces/carton",
-        "cartoon": "300 pieces",
-        "image": ["/agastya/product/ls1.jpg"]
+        "image": ["/agastya/product/lcb1.jpg","/agastya/product/leaf/box1.jpg", "/agastya/product/leaf/box1.jpg"]
     },
     {
         "id": "271",
@@ -833,7 +643,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/leaf/leafspoon1.jpg", "/agastya/product/leaf/leafspoon2.jpg"]
+        "image": ["/agastya/product/ls1.jpg","/agastya/product/leaf/leafspoon1.jpg", "/agastya/product/leaf/leafspoon2.jpg"]
     },
     {
         "id": "272",
@@ -845,8 +655,7 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": ["/agastya/product/leaf/leafspoonice1.jpg", "/agastya/product/leaf/leafspoonice1.jpg"]
-    }
-    ,
+    },
     {
         "id": "273",
         "name": "Soup Spoon",
