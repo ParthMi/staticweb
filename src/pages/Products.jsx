@@ -86,9 +86,11 @@ const Products = () => {
 
       return (
         <>
-            <div  className='!pt-8 ml-2 md:ml-0 flex items-center container mx-auto gap-1'>
+        <div className=' container md:mx-auto '>
+            <div  className='!pt-8 ml-2 md:ml-0 flex items-center gap-1'>
                 <span onClick={handleBackClick} className='cursor-pointer'><IoMdArrowRoundBack size={23}/></span>
                 <span className='text-lg font-semibold cursor-pointer' onClick={handleBackClick}>Back</span>
+            </div>
             </div>
             <div className="!mt-2 my-10 md:my-16 mx-2 md:mx-8">
                 {products.length > 0 && products.map((pro, index) => (

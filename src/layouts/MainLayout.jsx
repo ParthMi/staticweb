@@ -12,6 +12,7 @@ import {
 import { SiWhatsapp } from "react-icons/si";
 import { MdMail } from "react-icons/md";
 import { TbSquareRoundedArrowUpFilled } from "react-icons/tb";
+import logo from '../logo.png';
 
 const MainLayout = ({ children }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -53,7 +54,7 @@ const MainLayout = ({ children }) => {
           <span className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               <NavLink to="/">
-              <img src="agastya/logo.png" className="main-logo" />
+              <img src={logo} className="main-logo" />
               </NavLink>
             </span>
           </span>
@@ -223,7 +224,7 @@ const MainLayout = ({ children }) => {
             <div className="mb-6 md:mb-0">
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 <NavLink to="/">
-                <img src="agastya/logo.png" className="main-logo h-[60px]" />
+                <img src={logo} className="main-logo h-[60px]" />
               </NavLink>
               <div className="w-full mt-5 mb-3">
                     <p className="text-base text-body-color dark:text-dark-6">
