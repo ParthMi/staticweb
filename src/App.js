@@ -13,6 +13,8 @@ import ScrollToTop from '../src/components/common/ScrollToTop'
 import BlogInfo from './pages/BlogInfo';
 import { ToastContainer } from 'react-toastify';
 import Thank from './pages/Thank';
+import TermsAndCondition from './pages/TermsAndCondition';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/aboutus" element={<About />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/terms-and-condition" element={<TermsAndCondition />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/blog/:title" element={<BlogInfo />} />
           <Route path="/contactus" element={<Contact />} />
           <Route path="/thank" element={<Thank/>}/>

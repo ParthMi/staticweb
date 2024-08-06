@@ -164,7 +164,7 @@ try {
                 <a href='https://www.facebook.com/profile.php?id=61561396934662&mibextid=ZbWKwL' target=''>
 <img width='25' height='25' src='https://agastya-international.com/agastya/social-icons/facebook.png' alt='facebook'/>
                 </a>
-                <a href='https://www.instagram.com/agastya1723' target=''>
+                <a href='https://www.instagram.com/agastya.international0/' target=''>
 <img width='25' height='25' src='https://agastya-international.com/agastya/social-icons/instagram.png' alt='instagram'/>                </a>
                 <a href='https://wa.me/919978841409' target=''>
 <img width='25' height='25' src='https://agastya-international.com/agastya/social-icons/whatsapp.png' alt='whatsapp'/>                </a>

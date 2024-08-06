@@ -266,7 +266,7 @@ const MainLayout = ({ children }) => {
                     <NavLink
                     to='/contactus'
                     classname="hover:underline"
-                    aria-current="page">Contect Us</NavLink>
+                    aria-current="page">Contact Us</NavLink>
                   </li>
                 </ul>
               </div>
@@ -281,7 +281,7 @@ const MainLayout = ({ children }) => {
                     </a>
                   </span>
                   <span className="hover:cursor-pointer">
-                    <a href="https://www.instagram.com/agastya1723?igsh=MTVmMG13d3Y3aWJiYg==">
+                    <a href="https://www.instagram.com/agastya.international0/">
                       <FaInstagram className="social-link" />
                     </a>
                   </span>
@@ -308,14 +308,18 @@ const MainLayout = ({ children }) => {
                 </h2>
                 <ul className="text-gray-200 font-medium">
                   <li className="mb-4">
+                    <NavLink to='/privacy-policy'>
                     <span href="#" className="hover:underline">
                       Privacy Policy
                     </span>
+                    </NavLink>
                   </li>
                   <li>
+                  <NavLink to='/terms-and-condition'>
                     <span href="#" className="hover:underline">
                       Terms &amp; Conditions
                     </span>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
