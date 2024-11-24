@@ -101,7 +101,7 @@ const HeroSwiper = () => {
                             data-swiper-parallax="-400%"
                         >
                             <p>
-                                We believe in combining sustainability with exceptional quality.
+                            Serve in style, dispose with ease.
                             </p>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ const HeroSwiper = () => {
                             data-swiper-parallax="-400%"
                         >
                             <p>
-                                Reduce plastic waste and create a healthier planet for future generations.
+                            Your table’s best friend, your cleanup’s relief.
                             </p>
                         </div>
                     </div>
@@ -167,7 +167,7 @@ const HeroSwiper = () => {
                             data-swiper-parallax="-400%"
                         >
                             <p>
-                                Customer satisfaction is at the heart of what we do.
+                            Smart solutions for modern entertaining.
                             </p>
                         </div>
                     </div>
@@ -200,7 +200,7 @@ const HeroSwiper = () => {
                             data-swiper-parallax="-400%"
                         >
                             <p>
-                                Offers cutting-edge products designed to meet the highest standards.
+                            Eco-Friendly Plates, Party-Ready Convenience.
                             </p>
                         </div>
                     </div>
@@ -233,7 +233,7 @@ const HeroSwiper = () => {
                             data-swiper-parallax="-400%"
                         >
                             <p>
-                                Emphasizing sustainability, quality, innovation, safety, and customer satisfaction.
+                            Simplify Dining, One Plate at a Time!
                             </p>
                         </div>
                     </div>

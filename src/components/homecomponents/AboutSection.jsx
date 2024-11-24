@@ -45,7 +45,7 @@ const AboutSection = () => {
             <h2
               className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]"
             >
-              Make your customers happy by giving services.
+              We are believe in service
             </h2>
             <p className="mb-5 text-base text-body-color dark:text-dark-6">
             At Agastya International, we are dedicated to providing eco-friendly solutions through our plant-based disposable products, which are 100% biodegradable and compostable. Our commitment to sustainability helps reduce plastic waste and lowers the environmental footprint, contributing to a healthier planet
