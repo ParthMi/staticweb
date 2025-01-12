@@ -96,7 +96,7 @@ const Products = () => {
                 {products.length > 0 && products.map((pro, index) => (
                     <div key={index} className="md:mx-auto bg-[#e5e7eb] my-4 container rounded-[15px] border border-gray-100 text-gray-600 shadow-md">
                         <div className="relative p-4 md:p-8 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-3 justify-center">
-                            <div className='flex bg-white h-min w-auto p-2 rounded-[18px] flex-col flex items-center justify-center '>
+                            <div className='bg-white h-min w-auto p-2 rounded-[18px] flex-col flex items-center justify-center '>
                                 <div className="main-full-swiper aspect-square mx-auto w-[100%] md:max-w-[400px] flex items-center">
                                     <Swiper
                                         style={{ '--swiper-navigation-color': '#fff', '--swiper-pagination-color': '#fff' }}

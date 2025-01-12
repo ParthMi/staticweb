@@ -72,22 +72,22 @@ const About = () => {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold">Meet Our Team</h2>
+            <h2 className="text-3xl font-bold">Meet Our Founders</h2>
           </div>
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">
               <div className="bg-white rounded-lg shadow-lg p-4">
-                {/* <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-1.jpg" alt="Team Member 1" /> */}
+                <img className="rounded-full w-32 mx-auto mb-4" src="agastya/kenil.jpg" alt="Team Member 1" /> 
                 <h3 className="text-xl font-semibold text-center">Kenil Radadiya</h3>
-                <p className="text-gray-700 text-center">CEO</p>
+                <p className="text-gray-700 text-center">Founder & CEO</p>
                 
               </div>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">
               <div className="bg-white rounded-lg shadow-lg p-4">
-                {/* <img className="rounded-full w-32 mx-auto mb-4" src="https://dinearth.com/images/team-member-2.jpg" alt="Team Member 2" /> */}
+                <img className="rounded-full w-32 mx-auto mb-4" src="agastya/maulik.jpg" alt="Team Member 2" />
                 <h3 className="text-xl font-semibold text-center">Maulik Rathod</h3>
-                <p className="text-gray-700 text-center">COO</p>
+                <p className="text-gray-700 text-center">CO-Founder</p>
               </div>
             </div>
             

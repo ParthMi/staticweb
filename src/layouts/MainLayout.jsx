@@ -13,6 +13,7 @@ import { SiWhatsapp } from "react-icons/si";
 import { MdMail } from "react-icons/md";
 import { TbSquareRoundedArrowUpFilled } from "react-icons/tb";
 import logo from '../logo.png';
+import { FaYoutube } from "react-icons/fa6";
 
 const MainLayout = ({ children }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -291,12 +292,12 @@ const MainLayout = ({ children }) => {
                     </a>
                   </span>
                   <span className="hover:cursor-pointer">
-                    <a href="https://pin.it/4bdQG3lqH">
-                      <FaPinterest className="social-link" />
+                    <a href="https://www.youtube.com/@Agastya-International">
+                      <FaYoutube className="social-link" />
                     </a>
                   </span>
                   <span className="hover:cursor-pointer">
-                    <a href="https://www.linkedin.com/in/agastya-international-7585a9319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <a href="https://www.linkedin.com/company/agastya-international./">
                       <FaLinkedinIn className="social-link" />
                     </a>
                   </span>

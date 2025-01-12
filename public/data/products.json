@@ -9,9 +9,9 @@
         "dimension": "16mm,20mm.22mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/srp1.jpg",
-            "/agastya/product/sugarcane/round1.jpg",
-            "/agastya/product/sugarcane/round2.jpg"
+        "image": ["/agastya/product/sugarcane/Round_plate/1.jpg",
+            "/agastya/product/sugarcane/Round_plate/2.jpg",
+            "/agastya/product/sugarcane/Round_plate/3.jpg"
         ]
     },
     {
@@ -24,8 +24,8 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "/agastya/product/sugarcane/round21.jpg",
-            "/agastya/product/sugarcane/round22.jpg"
+            "/agastya/product/sugarcane/photo_112.jpg",
+            "/agastya/product/sugarcane/photo_1122.jpg"
         ]
     },
     {
@@ -37,9 +37,9 @@
         "dimension": "16mm,20mm.22mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/ssp1.jpg",
-            "/agastya/product/sugarcane/squre1.jpg",
-            "/agastya/product/sugarcane/squre2.jpg"
+        "image": ["/agastya/product/sugarcane/Square_plate/1.jpg",
+            "/agastya/product/sugarcane/Square_plate/2.jpg",
+            "/agastya/product/sugarcane/Square_plate/3.jpg"
         ]
     },
     {
@@ -58,159 +58,17 @@
     },
     {
         "id": "131",
-        "name": "3CP Round Plate",
+        "name": "3CP, 4CP & 5CP Compartment Plate",
         "category": "sugarcane",
-        "sub-cat": "partision-plate",
+        "sub-cat": "compartment-plate",
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm,20mm.22mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "/agastya/product/spp1.jpg",
-            "/agastya/product/sugarcane/3cpround1.jpg",
-            "/agastya/product/sugarcane/3cpround2.jpg"
-        ]
-    },
-    {
-        "id": "132",
-        "name": "4CP Round Plate",
-        "category": "sugarcane",
-        "sub-cat": "partision-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm,20mm.22mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/4cpround1.jpg",
-            "/agastya/product/sugarcane/4cpround1.jpg"
-        ]
-    },
-    {
-        "id": "133",
-        "name": "4CP Leaf Plate",
-        "category": "sugarcane",
-        "sub-cat": "partision-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm,20mm.22mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/4cpleaf1.jpg",
-            "/agastya/product/sugarcane/4cpleaf2.jpg"
-        ]
-    },
-    {
-        "id": "134",
-        "name": "3CP partision Plate",
-        "category": "sugarcane",
-        "sub-cat": "partision-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm,20mm.22mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/3cp1.jpg",
-            "/agastya/product/sugarcane/3cp1.jpg"
-        ]
-    },
-    {
-        "id": "135",
-        "name": "4CP partision Plate",
-        "category": "sugarcane",
-        "sub-cat": "partision-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm,20mm.22mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/4cp1.jpg",
-            "/agastya/product/sugarcane/4cp1.jpg"
-        ]
-    },
-    {
-        "id": "136",
-        "name": "5CP partision Plate",
-        "category": "sugarcane",
-        "sub-cat": "partision-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm,20mm.22mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/5cp1.jpg",
-            "/agastya/product/sugarcane/5cp2.jpg"
-        ]
-    },
-    {
-        "id": "137",
-        "name": "6CP partision Plate",
-        "category": "sugarcane",
-        "sub-cat": "partision-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm,20mm.22mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/6cp1.jpg",
-            "/agastya/product/sugarcane/6cp1.jpg"
-        ]
-    },
-    {
-        "id": "141",
-        "name": "hexagone plate",
-        "category": "sugarcane",
-        "sub-cat": "other-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sop1.jpg",
-            "/agastya/product/sugarcane/hexagon1.jpg",
-            "/agastya/product/sugarcane/hexagon2.jpg"
-        ]
-    },
-    {
-        "id": "142",
-        "name": "Leaf plate",
-        "category": "sugarcane",
-        "sub-cat": "other-plate",
-        "size": "7inch, 8inch, 9inch",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/leaf.jpg",
-            "/agastya/product/sugarcane/leaf.jpg"
-        ]
-    },
-    {
-        "id": "151",
-        "name": "Cup",
-        "category": "sugarcane",
-        "sub-cat": "bowl",
-        "size": "50ml 80ml 120ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sb1.jpg",
-            "/agastya/product/sugarcane/cup1.jpg",
-            "/agastya/product/sugarcane/cup2.jpg"
-        ]
-    },
-    {
-        "id": "152",
-        "name": "Large Cup",
-        "category": "sugarcane",
-        "sub-cat": "bowl",
-        "size": "150ml 180ml 250ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/cupbig1.jpg",
-            "/agastya/product/sugarcane/cupbig2.jpg"
+            "/agastya/product/sugarcane/Compartment_plate/1.jpg",
+            "/agastya/product/sugarcane/Compartment_plate/2.jpg",
+            "/agastya/product/sugarcane/Compartment_plate/3.jpg"
         ]
     },
     {
@@ -223,37 +81,9 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "/agastya/product/sugarcane/deepbowl1.jpg",
-            "/agastya/product/sugarcane/deepbowl2.jpg"
-        ]
-    },
-    {
-        "id": "154",
-        "name": "Large Bowl",
-        "category": "sugarcane",
-        "sub-cat": "bowl",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/large1.jpg",
-            "/agastya/product/sugarcane/large2.jpg"
-        ]
-    },
-    {
-        "id": "161",
-        "name": "Glass Tray",
-        "category": "sugarcane",
-        "sub-cat": "tray",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/st1.jpg",
-            "/agastya/product/sugarcane/glasstray1.jpg",
-            "/agastya/product/sugarcane/glasstray2.jpg"
+            "/agastya/product/sugarcane/Bowl/1.jpg",
+            "/agastya/product/sugarcane/Bowl/2.jpg",
+            "/agastya/product/sugarcane/Bowl/3.jpg"
         ]
     },
     {
@@ -266,16 +96,30 @@
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "/agastya/product/scb1.jpg",
-            "/agastya/product/sugarcane/box1.jpg",
-            "/agastya/product/sugarcane/box2.jpg"
+            "/agastya/product/sugarcane/Container_box/1.jpg",
+            "/agastya/product/sugarcane/Container_box/2.jpg",
+            "/agastya/product/sugarcane/Container_box/3.jpg"
         ]
     },
     {
-        "id": "172",
-        "name": "Regular Container box",
+        "id": "181",
+        "name": "Clamshell",
         "category": "sugarcane",
-        "sub-cat": "Container-box",
+        "sub-cat": "Clamshell",
+        "size": "150ml 180ml 220ml",
+        "dimension": "16mm",
+        "packet": "1000 pieces",
+        "cartoon": "1000 pieces",
+        "image": [
+            "/agastya/product/sugarcane/Clamshell/1.jpg",
+            "/agastya/product/sugarcane/Clamshell/2.jpg",
+            "/agastya/product/sugarcane/Clamshell/3.jpg"
+        ]
+    },{
+        "id": "182",
+        "name": "Regular Clamshell box",
+        "category": "sugarcane",
+        "sub-cat": "Clamshell",
         "size": "150ml 180ml 220ml",
         "dimension": "16mm",
         "packet": "1000 pieces",
@@ -286,87 +130,15 @@
         ]
     },
     {
-        "id": "173",
-        "name": "Medium Container box",
-        "category": "sugarcane",
-        "sub-cat": "Container-box",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/boxmedium1.jpg",
-            "/agastya/product/sugarcane/boxmedium1.jpg"
-        ]
-    }
-,
-    {
-        "id": "174",
-        "name": "Container Plate",
-        "category": "sugarcane",
-        "sub-cat": "Container-box",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/boxplate1.jpg", "/agastya/product/sugarcane/boxplate1.jpg"]
-    },
-    {
-        "id": "175",
-        "name": "2CP Container box",
-        "category": "sugarcane",
-        "sub-cat": "Container-box",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/box2part1.jpg", "/agastya/product/sugarcane/box2part2.jpg"]
-    },
-    {
-        "id": "176",
-        "name": "3CP Container box",
-        "category": "sugarcane",
-        "sub-cat": "Container-box",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/box3part1.jpg", "/agastya/product/sugarcane/box3part2.jpg"]
-    },
-    {
-        "id": "177",
-        "name": "3CP Container Plate",
-        "category": "sugarcane",
-        "sub-cat": "Container-box",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/box3cp1.jpg", "/agastya/product/sugarcane/box3cp2.jpg"]
-    },
-    {
-        "id": "181",
-        "name": "Strow",
-        "category": "sugarcane",
-        "sub-cat": "strow",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sstr1.jpg",
-        "/agastya/product/sugarcane/straw1.jpg",
-         "/agastya/product/sugarcane/straw2.jpg"]
-    },
-    {
         "id": "191",
-        "name": "Glass",
+        "name": "Cup & Lead",
         "category": "sugarcane",
         "sub-cat": "glass",
         "size": "150ml 180ml 220ml",
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sg1.jpg","/agastya/product/sugarcane/glass1.jpg", "/agastya/product/sugarcane/glass2.jpg"]
+        "image": ["/agastya/product/sugarcane/Cup_Lead/1.jpg","/agastya/product/sugarcane/Cup_Lead/2.jpg", "/agastya/product/sugarcane/Cup_Lead/3.jpg"]
     },
     {
         "id": "192",
@@ -380,28 +152,6 @@
         "image": ["/agastya/product/sugarcane/takeglass1.jpg", "/agastya/product/sugarcane/takeglass2.jpg"]
     },
     {
-        "id": "1101",
-        "name": "Spoon",
-        "category": "sugarcane",
-        "sub-cat": "spoon",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sspoon1.jpg","/agastya/product/sugarcane/spoon1.jpg", "/agastya/product/sugarcane/spoon1.jpg"]
-    },
-    {
-        "id": "1102",
-        "name": "Soup Spoon",
-        "category": "sugarcane",
-        "sub-cat": "spoon",
-        "size": "150ml 180ml 220ml",
-        "dimension": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/soupspoon1.jpg", "/agastya/product/sugarcane/soupspoon1.jpg"]
-    },
-    {
         "id": "1103",
         "name": "Spoon Fork Kinfe",
         "category": "sugarcane",
@@ -410,7 +160,7 @@
         "dimension": "16mm",
         "packet": "1000 pieces",
         "cartoon": "1000 pieces",
-        "image": ["/agastya/product/sugarcane/combosp1.jpg", "/agastya/product/sugarcane/combosp2.jpg"]
+        "image": ["/agastya/product/sugarcane/combosp1.jpg", "/agastya/product/sugarcane/combosp2.jpg","/agastya/product/sspoon1.jpg"]
     },
     {
         "id": "211",
@@ -535,9 +285,9 @@
     },
     {
         "id": "241",
-        "name": "2CP Partition Plate",
+        "name": "2CP compartment Plate",
         "category": "leaf-based",
-        "sub-cat": "partition-plate",
+        "sub-cat": "compartment-plate",
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces",
@@ -546,9 +296,9 @@
     },
     {
         "id": "242",
-        "name": "3CP Partition Plate",
+        "name": "3CP compartment Plate",
         "category": "leaf-based",
-        "sub-cat": "partition-plate",
+        "sub-cat": "compartment-plate",
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces",
@@ -559,9 +309,9 @@
     
     {
         "id": "243",
-        "name": "4CP Partition Plate",
+        "name": "4CP compartment Plate",
         "category": "leaf-based",
-        "sub-cat": "partition-plate",
+        "sub-cat": "compartment-plate",
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces",
@@ -572,7 +322,7 @@
         "id": "244",
         "name": "4CP Rectangle Plate",
         "category": "leaf-based",
-        "sub-cat": "partition-plate",
+        "sub-cat": "compartment-plate",
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces",
@@ -583,7 +333,7 @@
         "id": "245",
         "name": "3CP Square Plate",
         "category": "leaf-based",
-        "sub-cat": "partition-plate",
+        "sub-cat": "compartment-plate",
         "size": "7inch, 8inch, 9inch",
         "dimension": "16mm",
         "packet": "1000 pieces",

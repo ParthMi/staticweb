@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import ProductsCategory from './pages/ProductsCategory';
@@ -17,6 +18,19 @@ import TermsAndCondition from './pages/TermsAndCondition';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
+  const appVersion = "1.0.0"; // Define your app version here
+
+  useEffect(() => {
+    const cachedVersion = localStorage.getItem("version");
+
+    if (cachedVersion !== appVersion) {
+      localStorage.clear(); // Clear local storage if version doesn't match
+      localStorage.setItem("version", appVersion); // Set the new version
+      console.log("Local storage cleared and new version set.");
+    } else {
+      console.log("Version is up to date. No action needed.");
+    }
+  }, [appVersion]);
   return (
     <BrowserRouter>
       <ToastContainer />

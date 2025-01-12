@@ -157,7 +157,7 @@ const ProductsCategory = () => {
                           {toTitleCase(product['sub-cat'])}
                         </h6>
                       </div>
-                      <p className="text-[14px] font-bold text-gray-500 text-indigo-600">
+                      <p className="text-[14px] font-bold text-indigo-600">
                         {toTitleCase(product.category)}
                       </p>
                     </div>
