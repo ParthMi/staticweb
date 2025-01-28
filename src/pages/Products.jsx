@@ -44,7 +44,7 @@ const Products = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/data/products.json");
+                const response = await fetch("/data/product.json");
                 if (!response.ok) {
                     throw new Error("Failed to fetch data");
                 }
