@@ -18,7 +18,7 @@ import TermsAndCondition from './pages/TermsAndCondition';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
-  const appVersion = "1.0.0"; // Define your app version here
+  const appVersion = "1.0.2"; // Define your app version here
 
   useEffect(() => {
     const cachedVersion = localStorage.getItem("version");

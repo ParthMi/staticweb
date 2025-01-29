@@ -143,7 +143,7 @@ const Products = () => {
                                 <div className="mt-3 flex flex-col md:flex-row md:items-end">
                                     <div>
                                         <div><span className='font-bold'>Size : </span><span>{pro.size}</span></div>
-                                        <div><span className='font-bold'>Product weight : </span><span>{pro.weight}</span></div>
+                                        {pro.weight && <div><span className='font-bold'>Product weight : </span><span>{pro.weight}</span></div>}
                                         <div><span className='font-bold'>Packet : </span><span>{pro.packet}</span></div>
                                         <div><span className='font-bold'>Cartoon : </span><span>{pro.cartoon}</span></div>
                                     </div>
