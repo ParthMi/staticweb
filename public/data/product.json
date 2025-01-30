@@ -118,20 +118,6 @@
         ]
     },
     {
-        "id": "182",
-        "name": "Regular Clamshell box",
-        "category": "Bagasse",
-        "sub-cat": "Clamshell",
-        "size": "150ml 180ml 220ml",
-        "weight": "16mm",
-        "packet": "1000 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/boxregular1.jpg",
-            "/agastya/product/sugarcane/boxregular2.jpg"
-        ]
-    },
-    {
         "id": "191",
         "name": "Cup & Lead",
         "category": "Bagasse",
@@ -144,20 +130,6 @@
             "/agastya/product/sugarcane/Cup_Lead/1.jpg",
             "/agastya/product/sugarcane/Cup_Lead/2.jpg",
             "/agastya/product/sugarcane/Cup_Lead/3.jpg"
-        ]
-    },
-    {
-        "id": "192",
-        "name": "Take Away Glass",
-        "category": "Bagasse",
-        "sub-cat": "glass",
-        "size": "250ml",
-        "weight": "12 GMS",
-        "packet": "50 pieces",
-        "cartoon": "2000 pieces",
-        "image": [
-            "/agastya/product/sugarcane/takeglass1.jpg",
-            "/agastya/product/sugarcane/takeglass2.jpg"
         ]
     },
     {
@@ -319,9 +291,23 @@
             "/agastya/product/leaf/Other/Haxagone/1.jpg",
             "/agastya/product/leaf/Other/Haxagone/2.jpg"
         ]
-    },
+    }, 
     {
         "id": "241",
+        "name": "Rectangle Plate",
+        "category": "plam-leaf-based",
+        "sub-cat": "compartment-plate",
+        "size": "12inch",
+        "packet": "50 pieces",
+        "cartoon": "1000 pieces",
+        "image": [
+            "/agastya/product/leaf/Compartment/3.jpg",
+            "/agastya/product/leaf/Compartment/1.jpg",
+            "/agastya/product/leaf/Compartment/2.jpg"
+        ]
+    },
+    {
+        "id": "242",
         "name": "2CP compartment Plate",
         "category": "plam-leaf-based",
         "sub-cat": "compartment-plate",
@@ -329,12 +315,12 @@
         "packet": "50 pieces",
         "cartoon": "1500 pieces",
         "image": [
-            "/agastya/product/leaf/Compartment/3.jpg",
+            "/agastya/product/leaf/Compartment/2cp1.jpg",
             "/agastya/product/leaf/Compartment/2cp1.jpg"
         ]
     },
     {
-        "id": "242",
+        "id": "243",
         "name": "3CP compartment Plate",
         "category": "plam-leaf-based",
         "sub-cat": "compartment-plate",
@@ -348,7 +334,7 @@
         ]
     },
     {
-        "id": "243",
+        "id": "244",
         "name": "4CP compartment Plate",
         "category": "plam-leaf-based",
         "sub-cat": "compartment-plate",
@@ -356,22 +342,8 @@
         "packet": "50 pieces",
         "cartoon": "1000 pieces",
         "image": [
-            "/agastya/product/leaf/Compartment/4cp1.jpg",
             "/agastya/product/leaf/Compartment/4cp2.jpg",
-            "/agastya/product/leaf/Compartment/4cp2.jpg"
-        ]
-    },
-    {
-        "id": "244",
-        "name": "4CP Rectangle Plate",
-        "category": "plam-leaf-based",
-        "sub-cat": "compartment-plate",
-        "size": "12inch",
-        "packet": "50 pieces",
-        "cartoon": "1000 pieces",
-        "image": [
-            "/agastya/product/leaf/Compartment/1.jpg",
-            "/agastya/product/leaf/Compartment/2.jpg"
+            "/agastya/product/leaf/Compartment/4cp1.jpg"
         ]
     },
     {
